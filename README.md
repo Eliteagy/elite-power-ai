@@ -1,6 +1,6 @@
 # Elite Power AI
 
-The Elite Agency's AI setup: a 3D office where AI agents work (Agent Floor), a command centre where Claude, GPT and Gemini work together, 42 Claude Code agents organised by department, and 441 skills.
+The Elite Agency's AI setup: a 3D office where AI agents work (Agent Floor), a command centre where Claude, GPT and Gemini work together, 42 Claude Code agents organised by department, and about 3,300 skills.
 
 ## What is in here
 
@@ -9,6 +9,8 @@ The Elite Agency's AI setup: a 3D office where AI agents work (Agent Floor), a c
 | `agent-floor/` | The 3D office (Electron + Three.js). See below. |
 | `agents/` | Claude Code agents. `global/` goes in `~/.claude/agents`; the others are per department. |
 | `skills/` | 441 Claude Code skills (video editing, sales, marketing, programming, security, trading…). |
+| `skills-extra/` | 2,863 more skills: `elite-agency/` (1,319, from the agency's own work and the open-source repos it uses) and `plugins/` (1,544, from Claude Code plugin marketplaces). Each one has `ORIGEM.md` (where it came from and its licence) and, when it has one, `LICENSE-ORIGEM`. |
+| `SKILLS-EXTRA-DE-FORA.md` | The 983 skills from those sources that were left out (no licence, a licence that doesn't allow redistribution, or private data) and where to get them. |
 | `SKILLS-DE-FORA.md` | Skills that were not included (third-party licences or client-specific) and why. |
 
 ### Agent Floor
@@ -31,6 +33,9 @@ Requirements: Windows 10/11 (macOS works too), [Node.js 20+](https://nodejs.org)
 ```powershell
 # Skills
 Copy-Item -Recurse skills\* $env:USERPROFILE\.claude\skills\
+# Extra skills (optional). There are thousands, and Claude Code reads every skill's description at start-up, so copy the ones you need.
+Copy-Item -Recurse skills-extra\elite-agency\* $env:USERPROFILE\.claude\skills\
+Copy-Item -Recurse skills-extra\plugins\* $env:USERPROFILE\.claude\skills\
 # Global agents
 Copy-Item agents\global\*.md $env:USERPROFILE\.claude\agents\
 ```
