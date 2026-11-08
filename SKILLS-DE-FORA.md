@@ -24,10 +24,7 @@ Não vêm neste repositório porque a licença delas é de terceiros (pode não 
 
 ## Específicas de clientes
 
-- reels-v-agostinho
-- edicao-v-agostinho
-- maisempresa-brutos
-- maisempresa-talking-head
+- 4 skills feitas à medida para clientes (não incluídas)
 
 ## Fontes da Apple
 
