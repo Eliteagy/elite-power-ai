@@ -1,0 +1,506 @@
+[
+ {
+  "clip": "D:\\Elite Agency edicao\\Cliente Exemplo 29-10\\proxy\\C0003.mp4",
+  "inicio": 34.3,
+  "voto": "bom",
+  "motivo": "",
+  "medidas": {
+   "tremor_px": 0.311,
+   "salto_px": 2.824,
+   "velocidade_px": 0.864,
+   "nitidez": 172.1,
+   "estourado_pct": 1.37,
+   "escuro_pct": 13.27
+  }
+ },
+ {
+  "clip": "D:\\Elite Agency edicao\\Cliente Exemplo 29-10\\proxy\\C0003.mp4",
+  "inicio": 14.48,
+  "voto": "bom",
+  "motivo": "",
+  "medidas": {
+   "tremor_px": 0.237,
+   "salto_px": 1.684,
+   "velocidade_px": 0.338,
+   "nitidez": 156.0,
+   "estourado_pct": 0.0,
+   "escuro_pct": 1.71
+  }
+ },
+ {
+  "clip": "D:\\Elite Agency edicao\\Cliente Exemplo 29-10\\proxy\\C0001.mp4",
+  "inicio": 0.07,
+  "voto": "mau",
+  "motivo": "",
+  "medidas": {
+   "tremor_px": 0.327,
+   "salto_px": 2.968,
+   "velocidade_px": 1.064,
+   "nitidez": 234.1,
+   "estourado_pct": 2.25,
+   "escuro_pct": 13.92
+  }
+ },
+ {
+  "clip": "D:\\Elite Agency edicao\\Cliente Exemplo 29-10\\proxy\\C0001.mp4",
+  "inicio": 8.48,
+  "voto": "mau",
+  "motivo": "",
+  "medidas": {
+   "tremor_px": 0.227,
+   "salto_px": 2.33,
+   "velocidade_px": 1.192,
+   "nitidez": 265.4,
+   "estourado_pct": 0.7,
+   "escuro_pct": 11.25
+  }
+ },
+ {
+  "clip": "D:\\Elite Agency edicao\\Cliente Exemplo 29-10\\proxy\\C0001.mp4",
+  "inicio": 25.89,
+  "voto": "bom",
+  "motivo": "",
+  "medidas": {
+   "tremor_px": 0.175,
+   "salto_px": 2.35,
+   "velocidade_px": 1.263,
+   "nitidez": 249.7,
+   "estourado_pct": 1.63,
+   "escuro_pct": 14.71
+  }
+ },
+ {
+  "clip": "D:\\Elite Agency edicao\\Cliente Exemplo 29-10\\proxy\\C0003.mp4",
+  "inicio": 44.51,
+  "voto": "bom",
+  "motivo": "",
+  "medidas": {
+   "tremor_px": 0.325,
+   "salto_px": 1.755,
+   "velocidade_px": 0.983,
+   "nitidez": 125.7,
+   "estourado_pct": 0.05,
+   "escuro_pct": 4.65
+  }
+ },
+ {
+  "clip": "D:\\Elite Agency edicao\\Cliente Exemplo 29-10\\proxy\\C0005.mp4",
+  "inicio": 1.87,
+  "voto": "bom",
+  "motivo": "",
+  "medidas": {
+   "tremor_px": 0.31,
+   "salto_px": 1.943,
+   "velocidade_px": 0.627,
+   "nitidez": 127.7,
+   "estourado_pct": 5.15,
+   "escuro_pct": 22.83
+  }
+ },
+ {
+  "clip": "D:\\Elite Agency edicao\\Cliente Exemplo 29-10\\proxy\\C0005.mp4",
+  "inicio": 6.67,
+  "voto": "mau",
+  "motivo": "",
+  "medidas": {
+   "tremor_px": 0.227,
+   "salto_px": 2.597,
+   "velocidade_px": 1.248,
+   "nitidez": 129.1,
+   "estourado_pct": 5.03,
+   "escuro_pct": 21.37
+  }
+ },
+ {
+  "clip": "D:\\Elite Agency edicao\\Cliente Exemplo 29-10\\proxy\\C0005.mp4",
+  "inicio": 18.08,
+  "voto": "mau",
+  "motivo": "",
+  "medidas": {
+   "tremor_px": 0.287,
+   "salto_px": 2.151,
+   "velocidade_px": 0.488,
+   "nitidez": 144.2,
+   "estourado_pct": 5.99,
+   "escuro_pct": 17.92
+  }
+ },
+ {
+  "clip": "D:\\Elite Agency edicao\\Cliente Exemplo 29-10\\proxy\\C0007.mp4",
+  "inicio": 6.07,
+  "voto": "bom",
+  "motivo": "",
+  "medidas": {
+   "tremor_px": 0.287,
+   "salto_px": 2.208,
+   "velocidade_px": 1.359,
+   "nitidez": 121.8,
+   "estourado_pct": 0.09,
+   "escuro_pct": 4.34
+  }
+ },
+ {
+  "clip": "D:\\Elite Agency edicao\\Cliente Exemplo 29-10\\proxy\\C0007.mp4",
+  "inicio": 12.08,
+  "voto": "bom",
+  "motivo": "",
+  "medidas": {
+   "tremor_px": 0.445,
+   "salto_px": 2.445,
+   "velocidade_px": 1.376,
+   "nitidez": 123.0,
+   "estourado_pct": 0.17,
+   "escuro_pct": 2.04
+  }
+ },
+ {
+  "clip": "D:\\Elite Agency edicao\\Cliente Exemplo 29-10\\proxy\\C0007.mp4",
+  "inicio": 15.08,
+  "voto": "mau",
+  "motivo": "",
+  "medidas": {
+   "tremor_px": 0.392,
+   "salto_px": 3.044,
+   "velocidade_px": 1.321,
+   "nitidez": 129.1,
+   "estourado_pct": 0.28,
+   "escuro_pct": 0.03
+  }
+ },
+ {
+  "clip": "D:\\Elite Agency edicao\\Cliente Exemplo 29-10\\proxy\\C0011.mp4",
+  "inicio": 3.07,
+  "voto": "bom",
+  "motivo": "",
+  "medidas": {
+   "tremor_px": 0.245,
+   "salto_px": 2.163,
+   "velocidade_px": 1.374,
+   "nitidez": 267.5,
+   "estourado_pct": 0.0,
+   "escuro_pct": 0.95
+  }
+ },
+ {
+  "clip": "D:\\Elite Agency edicao\\Cliente Exemplo 29-10\\proxy\\C0011.mp4",
+  "inicio": 15.08,
+  "voto": "bom",
+  "motivo": "",
+  "medidas": {
+   "tremor_px": 0.312,
+   "salto_px": 2.978,
+   "velocidade_px": 1.104,
+   "nitidez": 151.1,
+   "estourado_pct": 2.78,
+   "escuro_pct": 2.56
+  }
+ },
+ {
+  "clip": "D:\\Elite Agency edicao\\Cliente Exemplo 29-10\\proxy\\C0011.mp4",
+  "inicio": 0.07,
+  "voto": "mau",
+  "motivo": "",
+  "medidas": {
+   "tremor_px": 0.485,
+   "salto_px": 2.408,
+   "velocidade_px": 1.091,
+   "nitidez": 399.6,
+   "estourado_pct": 0.79,
+   "escuro_pct": 0.56
+  }
+ },
+ {
+  "clip": "D:\\Elite Agency edicao\\Cliente Exemplo 29-10\\proxy\\C0014.mp4",
+  "inicio": 18.08,
+  "voto": "mau",
+  "motivo": "",
+  "medidas": {
+   "tremor_px": 0.307,
+   "salto_px": 2.041,
+   "velocidade_px": 0.698,
+   "nitidez": 148.5,
+   "estourado_pct": 0.0,
+   "escuro_pct": 0.42
+  }
+ },
+ {
+  "clip": "D:\\Elite Agency edicao\\Cliente Exemplo 29-10\\proxy\\C0014.mp4",
+  "inicio": 51.72,
+  "voto": "bom",
+  "motivo": "",
+  "medidas": {
+   "tremor_px": 0.351,
+   "salto_px": 3.747,
+   "velocidade_px": 1.951,
+   "nitidez": 326.7,
+   "estourado_pct": 1.66,
+   "escuro_pct": 0.14
+  }
+ },
+ {
+  "clip": "D:\\Elite Agency edicao\\Cliente Exemplo 29-10\\proxy\\C0014.mp4",
+  "inicio": 28.29,
+  "voto": "mau",
+  "motivo": "",
+  "medidas": {
+   "tremor_px": 0.39,
+   "salto_px": 2.886,
+   "velocidade_px": 0.849,
+   "nitidez": 259.2,
+   "estourado_pct": 2.05,
+   "escuro_pct": 6.24
+  }
+ },
+ {
+  "clip": "D:\\Elite Agency edicao\\Cliente Exemplo 29-10\\proxy\\C0015.mp4",
+  "inicio": 6.07,
+  "voto": "bom",
+  "motivo": "",
+  "medidas": {
+   "tremor_px": 0.47,
+   "salto_px": 1.726,
+   "velocidade_px": 0.543,
+   "nitidez": 475.2,
+   "estourado_pct": 0.17,
+   "escuro_pct": 16.79
+  }
+ },
+ {
+  "clip": "D:\\Elite Agency edicao\\Cliente Exemplo 29-10\\proxy\\C0015.mp4",
+  "inicio": 3.07,
+  "voto": "mau",
+  "motivo": "",
+  "medidas": {
+   "tremor_px": 0.318,
+   "salto_px": 1.224,
+   "velocidade_px": 0.535,
+   "nitidez": 962.4,
+   "estourado_pct": 0.21,
+   "escuro_pct": 0.16
+  }
+ },
+ {
+  "clip": "D:\\Elite Agency edicao\\Cliente Exemplo 29-10\\proxy\\C0015.mp4",
+  "inicio": 0.07,
+  "voto": "bom",
+  "motivo": "",
+  "medidas": {
+   "tremor_px": 0.286,
+   "salto_px": 2.213,
+   "velocidade_px": 0.937,
+   "nitidez": 552.8,
+   "estourado_pct": 0.38,
+   "escuro_pct": 1.78
+  }
+ },
+ {
+  "clip": "D:\\Elite Agency edicao\\Cliente Exemplo 29-10\\proxy\\C0016.mp4",
+  "inicio": 10.88,
+  "voto": "bom",
+  "motivo": "",
+  "medidas": {
+   "tremor_px": 0.297,
+   "salto_px": 2.621,
+   "velocidade_px": 1.031,
+   "nitidez": 256.9,
+   "estourado_pct": 0.0,
+   "escuro_pct": 1.24
+  }
+ },
+ {
+  "clip": "D:\\Elite Agency edicao\\Cliente Exemplo 29-10\\proxy\\C0016.mp4",
+  "inicio": 7.87,
+  "voto": "mau",
+  "motivo": "",
+  "medidas": {
+   "tremor_px": 0.399,
+   "salto_px": 2.794,
+   "velocidade_px": 1.092,
+   "nitidez": 225.7,
+   "estourado_pct": 0.0,
+   "escuro_pct": 2.0
+  }
+ },
+ {
+  "clip": "D:\\Elite Agency edicao\\Cliente Exemplo 29-10\\proxy\\C0016.mp4",
+  "inicio": 0.67,
+  "voto": "mau",
+  "motivo": "",
+  "medidas": {
+   "tremor_px": 0.337,
+   "salto_px": 2.921,
+   "velocidade_px": 0.692,
+   "nitidez": 207.8,
+   "estourado_pct": 0.0,
+   "escuro_pct": 3.83
+  }
+ },
+ {
+  "clip": "D:\\Elite Agency edicao\\Cliente Exemplo 29-10\\proxy\\C0020.mp4",
+  "inicio": 3.07,
+  "voto": "bom",
+  "motivo": "",
+  "medidas": {
+   "tremor_px": 0.962,
+   "salto_px": 9.457,
+   "velocidade_px": 3.578,
+   "nitidez": 145.3,
+   "estourado_pct": 0.12,
+   "escuro_pct": 0.2
+  }
+ },
+ {
+  "clip": "D:\\Elite Agency edicao\\Cliente Exemplo 29-10\\proxy\\C0020.mp4",
+  "inicio": 0.07,
+  "voto": "mau",
+  "motivo": "",
+  "medidas": {
+   "tremor_px": 0.448,
+   "salto_px": 4.596,
+   "velocidade_px": 1.411,
+   "nitidez": 303.6,
+   "estourado_pct": 0.0,
+   "escuro_pct": 2.18
+  }
+ },
+ {
+  "clip": "D:\\Elite Agency edicao\\Cliente Exemplo 29-10\\proxy\\C0020.mp4",
+  "inicio": 6.07,
+  "voto": "mau",
+  "motivo": "",
+  "medidas": {
+   "tremor_px": 0.26,
+   "salto_px": 2.148,
+   "velocidade_px": 0.704,
+   "nitidez": 446.2,
+   "estourado_pct": 0.0,
+   "escuro_pct": 3.78
+  }
+ },
+ {
+  "clip": "D:\\Elite Agency edicao\\Cliente Exemplo 29-10\\proxy\\C0021.mp4",
+  "inicio": 15.68,
+  "voto": "bom",
+  "motivo": "",
+  "medidas": {
+   "tremor_px": 0.344,
+   "salto_px": 2.397,
+   "velocidade_px": 0.518,
+   "nitidez": 955.2,
+   "estourado_pct": 7.94,
+   "escuro_pct": 3.25
+  }
+ },
+ {
+  "clip": "D:\\Elite Agency edicao\\Cliente Exemplo 29-10\\proxy\\C0021.mp4",
+  "inicio": 47.51,
+  "voto": "bom",
+  "motivo": "",
+  "medidas": {
+   "tremor_px": 0.39,
+   "salto_px": 2.836,
+   "velocidade_px": 0.702,
+   "nitidez": 635.5,
+   "estourado_pct": 0.0,
+   "escuro_pct": 0.0
+  }
+ },
+ {
+  "clip": "D:\\Elite Agency edicao\\Cliente Exemplo 29-10\\proxy\\C0021.mp4",
+  "inicio": 4.87,
+  "voto": "mau",
+  "motivo": "",
+  "medidas": {
+   "tremor_px": 0.322,
+   "salto_px": 2.332,
+   "velocidade_px": 0.605,
+   "nitidez": 1228.5,
+   "estourado_pct": 5.06,
+   "escuro_pct": 2.42
+  }
+ },
+ {
+  "clip": "D:\\Elite Agency edicao\\Cliente Exemplo 29-10\\proxy\\C0038.mp4",
+  "inicio": 17.48,
+  "voto": "bom",
+  "motivo": "",
+  "medidas": {
+   "tremor_px": 0.216,
+   "salto_px": 5.666,
+   "velocidade_px": 3.421,
+   "nitidez": 119.5,
+   "estourado_pct": 0.0,
+   "escuro_pct": 15.93
+  }
+ },
+ {
+  "clip": "D:\\Elite Agency edicao\\Cliente Exemplo 29-10\\proxy\\C0038.mp4",
+  "inicio": 6.67,
+  "voto": "bom",
+  "motivo": "",
+  "medidas": {
+   "tremor_px": 0.369,
+   "salto_px": 4.048,
+   "velocidade_px": 0.994,
+   "nitidez": 101.1,
+   "estourado_pct": 4.43,
+   "escuro_pct": 15.4
+  }
+ },
+ {
+  "clip": "D:\\Elite Agency edicao\\Cliente Exemplo 29-10\\proxy\\C0038.mp4",
+  "inicio": 0.07,
+  "voto": "mau",
+  "motivo": "",
+  "medidas": {
+   "tremor_px": 0.485,
+   "salto_px": 4.334,
+   "velocidade_px": 1.72,
+   "nitidez": 414.7,
+   "estourado_pct": 1.49,
+   "escuro_pct": 5.84
+  }
+ },
+ {
+  "clip": "D:\\Elite Agency edicao\\Cliente Exemplo 29-10\\proxy\\C0037.mp4",
+  "inicio": 99.77,
+  "voto": "bom",
+  "motivo": "",
+  "medidas": {
+   "tremor_px": 0.495,
+   "salto_px": 4.452,
+   "velocidade_px": 2.788,
+   "nitidez": 321.6,
+   "estourado_pct": 6.3,
+   "escuro_pct": 4.66
+  }
+ },
+ {
+  "clip": "D:\\Elite Agency edicao\\Cliente Exemplo 29-10\\proxy\\C0037.mp4",
+  "inicio": 87.75,
+  "voto": "mau",
+  "motivo": "",
+  "medidas": {
+   "tremor_px": 0.14,
+   "salto_px": 3.143,
+   "velocidade_px": 0.381,
+   "nitidez": 322.7,
+   "estourado_pct": 3.93,
+   "escuro_pct": 11.75
+  }
+ },
+ {
+  "clip": "D:\\Elite Agency edicao\\Cliente Exemplo 29-10\\proxy\\C0037.mp4",
+  "inicio": 39.71,
+  "voto": "bom",
+  "motivo": "",
+  "medidas": {
+   "tremor_px": 0.227,
+   "salto_px": 4.381,
+   "velocidade_px": 3.003,
+   "nitidez": 170.4,
+   "estourado_pct": 0.28,
+   "escuro_pct": 10.27
+  }
+ }
+]

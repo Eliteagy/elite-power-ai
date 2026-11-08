@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "topics": [
+    {"topic": "Linking game lobbies with Discord text channels and managing channel links", "file": "references/social-sdk/linked-channels/linked-channels-index.md", "summary": "Open when linking game lobbies with Discord text channels and managing channel links.", "keywords": ["Discord developers"]},
+    {"topic": "Social SDK game invitations and joining players through invite flows", "file": "references/social-sdk/managing-game-invites/managing-game-invites-index.md", "summary": "Open when looking up Social SDK game invitations and joining players through invite flows.", "keywords": ["Discord developers"]},
+    {"topic": "Social SDK lobby creation, membership, messages and game sessions", "file": "references/social-sdk/managing-lobbies/managing-lobbies-index.md", "summary": "Open when looking up Social SDK lobby creation, membership, messages and game sessions.", "keywords": ["Discord developers"]},
+    {"topic": "Social SDK lobby voice connections, audio controls and voice state", "file": "references/social-sdk/managing-voice-chat/managing-voice-chat-index.md", "summary": "Open when looking up Social SDK lobby voice connections, audio controls and voice state.", "keywords": ["Discord developers"]},
+    {"topic": "Social SDK direct messaging and conversation/message state", "file": "references/social-sdk/sending-direct-messages/sending-direct-messages-index.md", "summary": "Open when looking up Social SDK direct messaging and conversation/message state.", "keywords": ["Discord developers"]},
+    {"topic": "Social SDK Rich Presence activity fields, assets and updates", "file": "references/social-sdk/setting-rich-presence/setting-rich-presence-index.md", "summary": "Open when looking up Social SDK Rich Presence activity fields, assets and updates.", "keywords": ["Discord developers"]},
+    {"topic": "Reference Language Selection", "file": "references/languages.md", "summary": "Open when you need a language version of this skill's references other than English.", "keywords": ["reference language", "translated references", "language selection"]}
+  ]
+}

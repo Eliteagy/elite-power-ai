@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "topics": [
+    {"topic": "Enabling premium features, app subscriptions and subscription/entitlement lifecycle", "file": "references/monetization/apps/eligibility-subscriptions-and-entitlements-index.md", "summary": "Open when enabling premium features, app subscriptions and subscription/entitlement lifecycle.", "keywords": ["Discord developers"]},
+    {"topic": "Activity storefronts, in-app purchases, entitlement verification and durable/consumable purchases", "file": "references/monetization/apps/purchases-and-premium-responses-index.md", "summary": "Open when looking up Activity storefronts, in-app purchases, entitlement verification and durable/consumable purchases.", "keywords": ["Discord developers"]},
+    {"topic": "Creating, pricing, publishing and maintaining SKUs and premium-app store pages", "file": "references/monetization/apps/sku-management-and-pricing-index.md", "summary": "Open when creating, pricing, publishing and maintaining SKUs and premium-app store pages.", "keywords": ["Discord developers"]},
+    {"topic": "Rich Presence data/assets and game-shop social commerce", "file": "references/activities/rich-presence/developers-index.md", "summary": "Open when looking up Rich Presence data/assets and game-shop social commerce.", "keywords": ["Discord developers"]},
+    {"topic": "Guild/application emoji management and entitlement retrieval/consumption/testing", "file": "references/resources/emoji-and-entitlements-index.md", "summary": "Open when looking up guild/application emoji management and entitlement retrieval/consumption/testing.", "keywords": ["Discord developers"]},
+    {"topic": "Stickers/packs and SKU subscription objects, statuses and retrieval", "file": "references/resources/stickers-and-subscriptions-index.md", "summary": "Open when looking up stickers/packs and SKU subscription objects, statuses and retrieval.", "keywords": ["Discord developers"]},
+    {"topic": "Reference Language Selection", "file": "references/languages.md", "summary": "Open when you need a language version of this skill's references other than English.", "keywords": ["reference language", "translated references", "language selection"]}
+  ]
+}

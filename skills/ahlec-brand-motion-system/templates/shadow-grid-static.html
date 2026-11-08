@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8" />
+<title>Shadow Grid — frame estático</title>
+<meta name="hz:slide-selector" content=".canvas-916" />
+<meta name="hz:canvas-width" content="1080" />
+<meta name="hz:canvas-height" content="1920" />
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { background:#0a0a0a; display:flex; justify-content:center; align-items:center; min-height:100vh; }
+
+  .canvas-916 {
+    position:relative;
+    width:1080px; height:1920px;
+    background:#030303;
+    overflow:hidden;
+  }
+
+  /* dot-grid mesh — medido no ficheiro real: período ~17px horizontal, ~10px vertical,
+     branco a ~3% opacidade sobre preto quase puro. É textura, não desenho — mal se vê de perto. */
+  .mesh {
+    position:absolute; inset:0;
+    background-image:
+      radial-gradient(rgba(255,255,255,0.05) 0.6px, transparent 0.6px);
+    background-size: 17px 10px;
+    background-position: 0 0;
+  }
+
+  /* vinheta pesada — o fundo original escurece bastante nas bordas */
+  .vignette {
+    position:absolute; inset:0;
+    background: radial-gradient(120% 85% at 50% 45%, transparent 40%, rgba(0,0,0,0.75) 100%);
+    pointer-events:none;
+  }
+
+  .shard {
+    position:absolute;
+    width:0; height:0;
+    /* triangle via border trick; size set per-shard via --s */
+    border-left: calc(var(--s) * 0.58) solid transparent;
+    border-right: calc(var(--s) * 0.58) solid transparent;
+    border-bottom: var(--s) solid rgba(232,236,240, var(--op));
+    transform: translate(-50%,-50%) rotate(var(--rot));
+    filter: drop-shadow(0 0 calc(var(--s) * 0.15) rgba(255,255,255, calc(var(--op) * 0.4)));
+  }
+</style>
+</head>
+<body>
+  <div class="canvas-916" data-canvas-width="1080" data-canvas-height="1920">
+    <div class="mesh"></div>
+
+    <!--
+      57 shards, posição/tamanho/opacidade tirados por amostragem do vídeo original
+      (Black BG 1 (HD).mp4, frame @3s). Isto é UM frame — para animar, ver
+      ../templates/ShadowGridBackground.tsx (Remotion), que usa o mesmo dataset com deriva.
+    -->
+    <div class="shard" style="left:703px; top:139px; --s:12px; --rot:192.9deg; --op:0.33"></div>
+    <div class="shard" style="left:40px; top:833px; --s:7px; --rot:25.1deg; --op:0.32"></div>
+    <div class="shard" style="left:134px; top:429px; --s:15px; --rot:225.9deg; --op:0.44"></div>
+    <div class="shard" style="left:1054px; top:89px; --s:20px; --rot:309deg; --op:0.44"></div>
+    <div class="shard" style="left:333px; top:1567px; --s:8px; --rot:65.1deg; --op:0.29"></div>
+    <div class="shard" style="left:592px; top:121px; --s:23px; --rot:21.5deg; --op:0.46"></div>
+    <div class="shard" style="left:339px; top:1124px; --s:24px; --rot:163.1deg; --op:0.49"></div>
+    <div class="shard" style="left:264px; top:1103px; --s:30px; --rot:189.1deg; --op:0.60"></div>
+    <div class="shard" style="left:1059px; top:227px; --s:27px; --rot:150.5deg; --op:0.48"></div>
+    <div class="shard" style="left:42px; top:1283px; --s:8px; --rot:275.2deg; --op:0.33"></div>
+    <div class="shard" style="left:751px; top:1141px; --s:34px; --rot:208.8deg; --op:0.55"></div>
+    <div class="shard" style="left:512px; top:1275px; --s:32px; --rot:21.8deg; --op:0.68"></div>
+    <div class="shard" style="left:888px; top:546px; --s:23px; --rot:138.9deg; --op:0.57"></div>
+    <div class="shard" style="left:181px; top:225px; --s:6px; --rot:21.2deg; --op:0.31"></div>
+    <div class="shard" style="left:422px; top:1673px; --s:7px; --rot:29deg; --op:0.30"></div>
+    <div class="shard" style="left:885px; top:1659px; --s:19px; --rot:100.2deg; --op:0.51"></div>
+    <div class="shard" style="left:1034px; top:290px; --s:13px; --rot:63.4deg; --op:0.43"></div>
+    <div class="shard" style="left:636px; top:504px; --s:9px; --rot:1.5deg; --op:0.34"></div>
+    <div class="shard" style="left:1029px; top:1326px; --s:13px; --rot:185.6deg; --op:0.39"></div>
+    <div class="shard" style="left:971px; top:1498px; --s:24px; --rot:314.8deg; --op:0.42"></div>
+    <div class="shard" style="left:112px; top:1218px; --s:14px; --rot:22.4deg; --op:0.38"></div>
+    <div class="shard" style="left:367px; top:101px; --s:9px; --rot:0.1deg; --op:0.30"></div>
+    <div class="shard" style="left:28px; top:1679px; --s:7px; --rot:221.1deg; --op:0.31"></div>
+    <div class="shard" style="left:393px; top:236px; --s:10px; --rot:305.6deg; --op:0.33"></div>
+    <div class="shard" style="left:93px; top:196px; --s:16px; --rot:123.3deg; --op:0.41"></div>
+    <div class="shard" style="left:25px; top:1826px; --s:31px; --rot:190.2deg; --op:0.50"></div>
+    <div class="shard" style="left:570px; top:1879px; --s:19px; --rot:310.8deg; --op:0.37"></div>
+    <div class="shard" style="left:180px; top:1482px; --s:10px; --rot:191.7deg; --op:0.34"></div>
+    <div class="shard" style="left:876px; top:1891px; --s:12px; --rot:306.9deg; --op:0.34"></div>
+    <div class="shard" style="left:245px; top:994px; --s:31px; --rot:128deg; --op:0.62"></div>
+    <div class="shard" style="left:280px; top:1330px; --s:6px; --rot:344.3deg; --op:0.29"></div>
+    <div class="shard" style="left:1031px; top:700px; --s:37px; --rot:79.4deg; --op:0.75"></div>
+    <div class="shard" style="left:674px; top:1729px; --s:9px; --rot:302.6deg; --op:0.31"></div>
+    <div class="shard" style="left:92px; top:1268px; --s:23px; --rot:327.5deg; --op:0.55"></div>
+    <div class="shard" style="left:193px; top:1515px; --s:28px; --rot:119.7deg; --op:0.53"></div>
+    <div class="shard" style="left:433px; top:1818px; --s:39px; --rot:260.9deg; --op:0.62"></div>
+    <div class="shard" style="left:977px; top:1548px; --s:7px; --rot:52.6deg; --op:0.29"></div>
+    <div class="shard" style="left:378px; top:1053px; --s:39px; --rot:47.2deg; --op:0.70"></div>
+    <div class="shard" style="left:569px; top:1793px; --s:38px; --rot:156.2deg; --op:0.69"></div>
+    <div class="shard" style="left:272px; top:562px; --s:31px; --rot:86.6deg; --op:0.51"></div>
+    <div class="shard" style="left:142px; top:1747px; --s:10px; --rot:127.4deg; --op:0.34"></div>
+    <div class="shard" style="left:454px; top:1762px; --s:20px; --rot:180.6deg; --op:0.53"></div>
+    <div class="shard" style="left:475px; top:352px; --s:18px; --rot:1.4deg; --op:0.36"></div>
+    <div class="shard" style="left:783px; top:1068px; --s:8px; --rot:117.4deg; --op:0.33"></div>
+    <div class="shard" style="left:115px; top:1076px; --s:19px; --rot:89.5deg; --op:0.49"></div>
+    <div class="shard" style="left:607px; top:1459px; --s:29px; --rot:328.5deg; --op:0.55"></div>
+    <div class="shard" style="left:553px; top:1330px; --s:22px; --rot:162.8deg; --op:0.47"></div>
+    <div class="shard" style="left:755px; top:1683px; --s:16px; --rot:339.2deg; --op:0.49"></div>
+    <div class="shard" style="left:907px; top:263px; --s:19px; --rot:43.8deg; --op:0.53"></div>
+    <div class="shard" style="left:79px; top:1285px; --s:7px; --rot:282.2deg; --op:0.29"></div>
+    <div class="shard" style="left:713px; top:275px; --s:8px; --rot:317.8deg; --op:0.35"></div>
+    <div class="shard" style="left:430px; top:936px; --s:9px; --rot:356.4deg; --op:0.39"></div>
+    <div class="shard" style="left:557px; top:651px; --s:8px; --rot:70.5deg; --op:0.32"></div>
+    <div class="shard" style="left:598px; top:846px; --s:26px; --rot:6.5deg; --op:0.43"></div>
+    <div class="shard" style="left:69px; top:1891px; --s:22px; --rot:283.8deg; --op:0.48"></div>
+    <div class="shard" style="left:43px; top:1496px; --s:7px; --rot:97.4deg; --op:0.30"></div>
+    <div class="shard" style="left:884px; top:497px; --s:15px; --rot:53.8deg; --op:0.45"></div>
+
+    <div class="vignette"></div>
+  </div>
+</body>
+</html>

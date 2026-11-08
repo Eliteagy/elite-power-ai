@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "topics": [
+    {"topic": "Choosing message or modal component development references", "file": "references/components/overview/message-and-modal-components-index.md", "summary": "Open when choosing message or modal component development references.", "keywords": ["Discord developers"]},
+    {"topic": "Component flags/anatomy, Action Row, Button, String Select, Text Input and User Select contracts", "file": "references/components/reference/buttons-and-select-menus-index.md", "summary": "Open when looking up component flags/anatomy, Action Row, Button, String Select, Text Input and User Select contracts.", "keywords": ["Discord developers"]},
+    {"topic": "Role Select, Mentionable Select and Channel Select component schemas and examples", "file": "references/components/reference/user-role-and-mentionable-selects-index.md", "summary": "Open when looking up Role Select, Mentionable Select and Channel Select component schemas and examples.", "keywords": ["Discord developers"]},
+    {"topic": "Section, Text Display, Thumbnail, Media Gallery, File, Separator, Container, Label and File Upload components", "file": "references/components/reference/channel-selects-and-layout-components-index.md", "summary": "Open when looking up Section, Text Display, Thumbnail, Media Gallery, File, Separator, Container, Label and File Upload components.", "keywords": ["Discord developers"]},
+    {"topic": "Radio Group, Checkbox Group, Checkbox, unfurled media, file uploading and legacy component behavior", "file": "references/components/reference/radio-checkbox-and-label-components-index.md", "summary": "Open when looking up Radio Group, Checkbox Group, Checkbox, unfurled media, file uploading and legacy component behavior.", "keywords": ["Discord developers"]},
+    {"topic": "Sending message components, nesting layouts, interaction responses and displaying modals", "file": "references/components/guides/components-index.md", "summary": "Open when sending message components, nesting layouts, interaction responses and displaying modals.", "keywords": ["Discord developers"]},
+    {"topic": "Reference Language Selection", "file": "references/languages.md", "summary": "Open when you need a language version of this skill's references other than English.", "keywords": ["reference language", "translated references", "language selection"]}
+  ]
+}

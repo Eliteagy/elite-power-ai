@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8" />
+<title>AMK Glass — brand sheet</title>
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background:#0d0d14;
+    color:#111;
+  }
+  .sheet { width:1600px; padding:64px 88px 48px; background:#0d0d14; color:#EDEFF2; }
+  .eyebrow { font-size:12px; letter-spacing:0.18em; text-transform:uppercase; color:#FF7A9E; font-weight:600; margin-bottom:18px; }
+  h1 { font-size:64px; font-weight:900; letter-spacing:-0.02em; text-transform:uppercase; line-height:1.02; margin-bottom:18px; }
+  .sub { font-size:17px; color:#9298a8; max-width:780px; line-height:1.5; margin-bottom:56px; }
+  .section-label { font-size:12px; letter-spacing:0.14em; text-transform:uppercase; color:#9298a8; margin-bottom:16px; }
+
+  /* hero mesh strip */
+  .hero-mesh { position:relative; height:360px; border-radius:8px; overflow:hidden; margin-bottom:56px; }
+  .blob { position:absolute; border-radius:50%; filter: blur(110px); }
+
+  .swatch-row { display:flex; border:1px solid rgba(255,255,255,0.1); border-radius:4px; overflow:hidden; margin-bottom:10px; }
+  .swatch { flex:1; padding:16px 18px; border-right:1px solid rgba(255,255,255,0.1); }
+  .swatch:last-child { border-right:none; }
+  .swatch-dot { width:100%; height:44px; border-radius:4px; margin-bottom:10px; }
+  .swatch-label { font-size:13px; font-weight:600; }
+  .swatch-hex { font-family: ui-monospace, 'SF Mono', monospace; font-size:11px; color:#9298a8; }
+  .note { font-size:12.5px; color:#9298a8; line-height:1.5; max-width:940px; margin-bottom:56px; }
+
+  .two-col { display:grid; grid-template-columns:1.05fr 0.95fr; gap:24px; margin-bottom:56px; align-items:stretch; }
+  .glass-demo { position:relative; border-radius:8px; overflow:hidden; height:340px; }
+  .panel {
+    position:absolute; left:32px; right:32px; bottom:32px; padding:28px 30px;
+    background: rgba(255,255,255,0.16);
+    backdrop-filter: blur(24px) saturate(180%);
+    -webkit-backdrop-filter: blur(24px) saturate(180%);
+    border-radius:24px;
+    border-top:1px solid rgba(255,255,255,0.45);
+    border-left:1px solid rgba(255,255,255,0.45);
+    border-right:1px solid rgba(255,255,255,0.12);
+    border-bottom:1px solid rgba(255,255,255,0.12);
+    box-shadow:0 8px 32px rgba(0,0,0,0.22);
+  }
+  .panel .t { font-size:26px; font-weight:900; color:#fff; text-shadow:0 1px 12px rgba(0,0,0,0.25); margin-bottom:6px; }
+  .panel .d { font-size:14px; color:rgba(255,255,255,0.75); text-shadow:0 1px 10px rgba(0,0,0,0.25); }
+  .pill-demo { position:absolute; top:32px; left:32px; display:inline-flex; padding:6px; gap:4px;
+    background: rgba(255,255,255,0.14); backdrop-filter: blur(24px) saturate(180%); -webkit-backdrop-filter: blur(24px) saturate(180%);
+    border-radius:100px; border:1px solid rgba(255,255,255,0.3); }
+  .pill-opt { padding:10px 22px; border-radius:100px; font-size:14px; font-weight:600; color:rgba(255,255,255,0.75); }
+  .pill-opt.active { background:rgba(255,255,255,0.28); color:#fff; box-shadow:0 2px 10px rgba(0,0,0,0.15); }
+
+  .data-card { border:1px solid rgba(255,255,255,0.1); border-radius:4px; }
+  .data-row { display:flex; justify-content:space-between; align-items:baseline; padding:16px 28px; border-bottom:1px solid rgba(255,255,255,0.08); font-family: ui-monospace, monospace; font-size:13px; }
+  .data-row:last-child { border-bottom:none; }
+  .data-row .k { color:#EDEFF2; font-weight:600; }
+  .data-row .v { color:#9298a8; }
+
+  .recipe { border:1px solid rgba(255,255,255,0.1); border-radius:4px; padding:28px 32px; margin-bottom:56px; }
+  .recipe code { display:block; font-family: ui-monospace, monospace; font-size:13px; color:#c9cfda; line-height:2; }
+  .recipe code b { color:#FF7A9E; }
+
+  .comps { display:grid; grid-template-columns: 1fr 1fr; gap:24px; margin-bottom:32px; }
+  .comp-card { position:relative; border-radius:8px; overflow:hidden; height:220px; }
+  .comp-label { position:absolute; top:16px; left:20px; font-family: ui-monospace, monospace; font-size:10.5px; text-transform:uppercase; letter-spacing:0.08em; color:rgba(255,255,255,0.6); z-index:2; }
+  .badge-demo { position:absolute; left:24px; bottom:24px; display:inline-flex; align-items:center; gap:8px; padding:12px 22px; border-radius:100px;
+    background: rgba(255,255,255,0.16); backdrop-filter: blur(24px) saturate(180%); -webkit-backdrop-filter: blur(24px) saturate(180%);
+    border:1px solid rgba(255,255,255,0.35); color:#fff; font-size:14px; font-weight:600; text-shadow:0 1px 8px rgba(0,0,0,0.25); }
+
+  .footer { display:flex; justify-content:space-between; font-size:11px; color:#5C6570; padding-top:24px; border-top:1px solid rgba(255,255,255,0.08); }
+</style>
+</head>
+<body>
+<div class="sheet">
+  <div class="eyebrow">AHLEC MAGIKRAFT · MARCA PESSOAL</div>
+  <h1>Design System<br/>AMK Glass</h1>
+  <div class="sub">Sistema visual e de motion claro/translúcido, inspirado no Liquid Glass da Apple. Fundo sempre um gradiente mesh vívido, conteúdo sempre dentro de painéis de vidro fosco, mesma tipografia do sistema irmão AMK SaaS. Usar para conteúdo mais leve/produto/Apple-style; nunca misturar com o AMK SaaS na mesma peça.</div>
+
+  <div class="section-label">Fundo — gradiente mesh, sempre vívido</div>
+  <div class="hero-mesh">
+    <div class="blob" style="width:820px;height:820px;left:-180px;top:-260px;background:#FF3EA6;opacity:0.85;"></div>
+    <div class="blob" style="width:760px;height:760px;right:-160px;top:-220px;background:#3E7BFA;opacity:0.8;"></div>
+    <div class="blob" style="width:680px;height:680px;left:280px;bottom:-320px;background:#8B3FFA;opacity:0.75;"></div>
+    <div class="blob" style="width:460px;height:460px;right:80px;bottom:-160px;background:#FF7A5C;opacity:0.5;"></div>
+    <div class="blob" style="width:520px;height:520px;left:640px;top:60px;background:#C9A6FF;opacity:0.4;"></div>
+  </div>
+
+  <div class="section-label">Paleta — Aurora Mesh a full-strength</div>
+  <div class="swatch-row">
+    <div class="swatch"><div class="swatch-dot" style="background:#FF3EA6;"></div><div class="swatch-label">Aurora Pink</div><div class="swatch-hex">#FF3EA6 · dominante</div></div>
+    <div class="swatch"><div class="swatch-dot" style="background:#8B3FFA;"></div><div class="swatch-label">Aurora Violet</div><div class="swatch-hex">#8B3FFA · ponte central</div></div>
+    <div class="swatch"><div class="swatch-dot" style="background:#3E7BFA;"></div><div class="swatch-label">Aurora Blue</div><div class="swatch-hex">#3E7BFA · contrapeso frio</div></div>
+    <div class="swatch"><div class="swatch-dot" style="background:#FF7A5C;"></div><div class="swatch-label">Aurora Coral</div><div class="swatch-hex">#FF7A5C · acento</div></div>
+    <div class="swatch"><div class="swatch-dot" style="background:#C9A6FF;"></div><div class="swatch-label">Aurora Lavender</div><div class="swatch-hex">#C9A6FF · highlight</div></div>
+  </div>
+  <div class="note">Mesma origem do Aurora Mesh do AMK SaaS (paleta do Liquid Glass da Apple) — aqui aplicada a 100%, não como bloom discreto. 3–4 blobs radiais grandes (raio 40–65% da largura), blur ≥120px, opacidade 65–90%, sobrepostos até misturar nas bordas. Bleed total, sem "fundo" visível por trás.</div>
+
+  <div class="section-label">Superfícies de vidro</div>
+  <div class="two-col">
+    <div class="glass-demo">
+      <div class="blob" style="width:520px;height:520px;left:-100px;top:-140px;background:#FF3EA6;opacity:0.8;"></div>
+      <div class="blob" style="width:480px;height:480px;right:-100px;top:-100px;background:#3E7BFA;opacity:0.75;"></div>
+      <div class="blob" style="width:420px;height:420px;left:120px;bottom:-180px;background:#8B3FFA;opacity:0.7;"></div>
+      <div class="pill-demo">
+        <div class="pill-opt">Years</div>
+        <div class="pill-opt active">Months</div>
+        <div class="pill-opt">All</div>
+      </div>
+      <div class="panel">
+        <div class="t">Painel de vidro</div>
+        <div class="d">rgba(255,255,255,.14) · blur(28px) saturate(180%) · borda de luz</div>
+      </div>
+    </div>
+    <div class="data-card">
+      <div class="data-row"><span class="k">RECEITA · VIDRO</span><span class="v"></span></div>
+      <div class="data-row"><span class="k">background</span><span class="v">rgba(255,255,255,.14)</span></div>
+      <div class="data-row"><span class="k">backdrop-filter</span><span class="v">blur(28px) saturate(180%)</span></div>
+      <div class="data-row"><span class="k">borda topo/esq</span><span class="v">rgba(255,255,255,.4)</span></div>
+      <div class="data-row"><span class="k">borda baixo/dir</span><span class="v">rgba(255,255,255,.12)</span></div>
+      <div class="data-row"><span class="k">sombra externa</span><span class="v">0 8px 32px rgba(0,0,0,.18)</span></div>
+      <div class="data-row"><span class="k">radius pílula/card</span><span class="v">100px / 28–32px</span></div>
+      <div class="data-row"><span class="k">texto</span><span class="v">#fff + text-shadow</span></div>
+    </div>
+  </div>
+
+  <div class="section-label">Tipografia — herdada do AMK SaaS</div>
+  <div class="recipe">
+    <code><b>Display</b> — Inter Black 900, caixa alta, letter-spacing −0.02em → títulos, headlines</code>
+    <code><b>Corpo</b> — Inter Regular/Medium 400–500 → texto de apoio, descrições</code>
+    <code><b>Curva de entrada</b> — 1 − e⁻⁶·³ˣ (mesma do AMK SaaS) + blur animado 0→28px nos painéis</code>
+    <code><b>Fundo</b> — deriva linear, período 20–30s, nunca com a curva de entrada</code>
+  </div>
+
+  <div class="section-label">Componentes, em repouso</div>
+  <div class="comps">
+    <div class="comp-card">
+      <div class="blob" style="width:420px;height:420px;left:-60px;top:-100px;background:#3E7BFA;opacity:0.8;"></div>
+      <div class="blob" style="width:380px;height:380px;right:-80px;bottom:-100px;background:#8B3FFA;opacity:0.7;"></div>
+      <div class="comp-label">Badge</div>
+      <div class="badge-demo">✓ Publicado</div>
+    </div>
+    <div class="comp-card">
+      <div class="blob" style="width:420px;height:420px;right:-60px;top:-100px;background:#FF3EA6;opacity:0.8;"></div>
+      <div class="blob" style="width:380px;height:380px;left:-80px;bottom:-100px;background:#FF7A5C;opacity:0.6;"></div>
+      <div class="comp-label">Segmented control</div>
+      <div class="pill-demo" style="top:auto; bottom:24px; left:24px;">
+        <div class="pill-opt">Years</div>
+        <div class="pill-opt active">Months</div>
+        <div class="pill-opt">All</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <span>Design System AMK Glass · v1 · MagiKraft Skills / ahlec-glass-motion-system</span>
+    <span>Sistema irmão: AMK SaaS</span>
+  </div>
+</div>
+</body>
+</html>

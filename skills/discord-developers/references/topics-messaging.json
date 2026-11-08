@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "topics": [
+    {"topic": "Channel/thread/forum object schemas, channel modification and channel permissions", "file": "references/messaging/channels/channel-objects-and-settings-index.md", "summary": "Open when looking up channel/thread/forum object schemas, channel modification and channel permissions.", "keywords": ["Discord developers"]},
+    {"topic": "Channel invites, group DMs, thread creation/membership and archived-thread listing", "file": "references/messaging/channels/invites-permissions-and-threads-index.md", "summary": "Open when looking up channel invites, group DMs, thread creation/membership and archived-thread listing.", "keywords": ["Discord developers"]},
+    {"topic": "Message, interaction metadata, references/snapshots, reactions and embed schemas", "file": "references/messaging/messages/message-objects-and-embeds-index.md", "summary": "Open when looking up message, interaction metadata, references/snapshots, reactions and embed schemas.", "keywords": ["Discord developers"]},
+    {"topic": "Attachments, mentions, message retrieval/search and message creation", "file": "references/messaging/messages/attachments-and-message-creation-index.md", "summary": "Open when looking up attachments, mentions, message retrieval/search and message creation.", "keywords": ["Discord developers"]},
+    {"topic": "Message crossposting, reactions, editing/deletion and current/deprecated pin endpoints", "file": "references/messaging/messages/reactions-edits-and-pins-index.md", "summary": "Open when looking up message crossposting, reactions, editing/deletion and current/deprecated pin endpoints.", "keywords": ["Discord developers"]},
+    {"topic": "Webhook objects, management, execution/compatibility and webhook message operations", "file": "references/messaging/webhooks/webhook-index.md", "summary": "Open when looking up webhook objects, management, execution/compatibility and webhook message operations.", "keywords": ["Discord developers"]},
+    {"topic": "Thread lifecycle/permissions, Gateway synchronization, membership and forum/media channels", "file": "references/messaging/threads/threads-index.md", "summary": "Open when looking up thread lifecycle/permissions, Gateway synchronization, membership and forum/media channels.", "keywords": ["Discord developers"]},
+    {"topic": "Reference Language Selection", "file": "references/languages.md", "summary": "Open when you need a language version of this skill's references other than English.", "keywords": ["reference language", "translated references", "language selection"]}
+  ]
+}

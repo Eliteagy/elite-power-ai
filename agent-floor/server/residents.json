@@ -1,0 +1,1331 @@
+{
+  "_comment": "Permanent agents seated on the floor even with no live session: one character per skill, one office (team) per group. Team names must match the floor regex in src/core/floors.ts (Vendas = /vendas|crm|prospe/i, Ads = /\bads\b|\bmeta\b|google|.../i, Geral = anything unmatched, Trading = /trading|invest/i, Edicao = /edi[cç](?:[aã]o|[oõ]es)|video|.../i) to land on that floor. Financas = /finan[cç]|fiscal|tesour|fatura/i. Redes Sociais = /redes|social/i. Mods = /mods?|plugin/i (floor 8; Direcao is 9). Elite Real Estate building (checked first): R0 Rececao = /^imob|real.?estate|elite.?imo/i, R1 Consultores = /^imob.*consult/i, R2 Conteudo = /^imob.*(conte|video|guio|social|linkedin)|exemplo/i, R3 Academia = /^imob.*acad/i.",
+  "teams": [
+    {
+      "team": "Vendas Prospecao",
+      "role": "prospeccao",
+      "skills": [
+        "prospect-research",
+        "company-intelligence",
+        "account-qualification",
+        "lead-dossier",
+        "lead-intelligence",
+        "competitors-analysis"
+      ]
+    },
+    {
+      "team": "Vendas Follow-up",
+      "role": "follow-up",
+      "skills": [
+        "follow-up-emails",
+        "email-sequences",
+        "multithread-outreach"
+      ]
+    },
+    {
+      "team": "Vendas Fecho",
+      "role": "fecho",
+      "skills": [
+        "vendas-cold-call",
+        "cold-call-scripts",
+        "powerful-framework",
+        "sales-playbook",
+        "call-analysis"
+      ]
+    },
+    {
+      "team": "Vendas Copy",
+      "role": "copy-vendas",
+      "skills": [
+        "positioning-angles",
+        "direct-response-copy",
+        "lead-magnet",
+        "brand-voice",
+        "conversion-ops"
+      ]
+    },
+    {
+      "team": "Vendas Pipeline",
+      "role": "pipeline",
+      "skills": [
+        "sales-pipeline",
+        "revenue-intelligence",
+        "outbound-engine",
+        "growth-engine",
+        "sales-orchestrator"
+      ]
+    },
+    {
+      "team": "Edicao Montagem",
+      "role": "editor-video",
+      "skills": [
+        "edicao-pro",
+        "editor-video",
+        "video-use",
+        "ffmpeg",
+        "moviepy",
+        "roughcut",
+        "cut-planner",
+        "cut-the-curve",
+        "seam-craft",
+        "talking-head-recut",
+        "general-video",
+        "video-comparer"
+      ]
+    },
+    {
+      "team": "Edicao Legendas",
+      "role": "legendas",
+      "skills": [
+        "embedded-captions",
+        "captions-overlay",
+        "video-caption-generator",
+        "transcribe-audio",
+        "hyperframes-cinematic-caption",
+        "remotion-captions"
+      ]
+    },
+    {
+      "team": "Edicao Remotion",
+      "role": "editor-animations",
+      "skills": [
+        "remotion-best-practices",
+        "remotion",
+        "remotion-official",
+        "remotion-motion-graphics",
+        "motion-graphics",
+        "motion-doctrine",
+        "terminal-inserts",
+        "cinematic-camera",
+        "ahlec-brand-motion-system",
+        "ahlec-glass-motion-system"
+      ]
+    },
+    {
+      "team": "Edicao HyperFrames",
+      "role": "hyperframes",
+      "skills": [
+        "hyperframes",
+        "hyperframes-core",
+        "hyperframes-animation",
+        "hyperframes-creative",
+        "hyperframes-keyframes",
+        "hyperframes-audio",
+        "hyperframes-cli",
+        "hyperframes-registry",
+        "remotion-to-hyperframes",
+        "figma"
+      ]
+    },
+    {
+      "team": "Edicao Animacao",
+      "role": "animacao",
+      "skills": [
+        "manim-video",
+        "vox-animation",
+        "paper-animation",
+        "claymation",
+        "oversized-cursor",
+        "faceless-explainer"
+      ]
+    },
+    {
+      "team": "Edicao Shorts",
+      "role": "editor-clips-virais",
+      "skills": [
+        "short-form-pipeline",
+        "video-clip-pipeline",
+        "reels-estilo-gui",
+        "yt-shorts",
+        "Empresa Exemplo-talking-head",
+        "Empresa Exemplo-brutos",
+        "improve-retention"
+      ]
+    },
+    {
+      "team": "Edicao YouTube",
+      "role": "estrategia-youtube",
+      "skills": [
+        "yt-plan",
+        "yt-script",
+        "yt-viral",
+        "yt-package",
+        "yt-seo",
+        "yt-chapters",
+        "yt-retention",
+        "yt-audit",
+        "yt-competitive-analysis",
+        "yt-comment",
+        "yt-edit"
+      ]
+    },
+    {
+      "team": "Edicao Video IA",
+      "role": "video-ia",
+      "skills": [
+        "ai-avatar-video",
+        "video-prompter",
+        "ltx2",
+        "higgsfield",
+        "music-to-video",
+        "ugc",
+        "talking-object",
+        "dramatized-vertical-video"
+      ]
+    },
+    {
+      "team": "Edicao Ads",
+      "role": "ads",
+      "skills": [
+        "ad-director",
+        "ad-generator",
+        "ad-assets",
+        "skeleton-ads",
+        "song-style-ad",
+        "product-launch-video",
+        "product-visuals",
+        "studio-shot",
+        "changelog-video",
+        "pr-to-video"
+      ]
+    },
+    {
+      "team": "Edicao Audio e Analise",
+      "role": "audio-analise",
+      "skills": [
+        "elevenlabs",
+        "acestep",
+        "analyze-video",
+        "summarize-video",
+        "watch",
+        "video-downloader",
+        "youtube-downloader",
+        "earshot",
+        "real-sound",
+        "elevenlabs-agents"
+      ]
+    },
+    {
+      "team": "Edicao Referencias",
+      "role": "analista-referencias",
+      "skills": [
+        "referencia-video",
+        "rea-video",
+        "reverse-any-video",
+        "style-sampling",
+        "guioes-imobiliario",
+        "hook-writer"
+      ]
+    },
+    {
+      "team": "Trading Analise",
+      "role": "analista",
+      "skills": [
+        "analise-ativo",
+        "financial-data-collector",
+        "market-research",
+        "deep-research"
+      ]
+    },
+    {
+      "team": "Trading Formacao",
+      "role": "aluno",
+      "skills": [
+        {
+          "name": "Professor",
+          "role": "professor",
+          "activity": "Aula 1 · Bases do trading"
+        },
+        "aprender-investimento"
+      ]
+    },
+    {
+      "team": "Trading Demo",
+      "role": "trader-demo",
+      "skills": [
+        "diario-trades"
+      ]
+    },
+    {
+      "team": "Trading Imobiliario",
+      "role": "consultor-imobiliario",
+      "skills": [
+        "imobiliario-investimento"
+      ]
+    },
+    {
+      "team": "Geral Skills",
+      "role": "cacador-skills",
+      "skills": [
+        "cli-skill-collector",
+        "skill-inspector",
+        "skill-improver",
+        "skill-stocktake",
+        "search-first",
+        "claude-automation-recommender",
+        "omni-github-skills",
+        "deep-research"
+      ]
+    },
+    {
+      "team": "Ads Meta",
+      "role": "gestor-meta-ads",
+      "skills": [
+        "direct-response-copy",
+        "positioning-angles",
+        "ad-generator",
+        "image-prompter",
+        "organic-first-campaign"
+      ]
+    },
+    {
+      "team": "Ads Google",
+      "role": "gestor-google-ads",
+      "skills": [
+        "keyword-research",
+        "seo-landing",
+        "conversion-ops",
+        "competitors-analysis"
+      ]
+    },
+    {
+      "team": "Ads Criativos",
+      "role": "criativos-ads",
+      "skills": [
+        "ad-director",
+        "ad-assets",
+        "skeleton-ads",
+        "product-visuals",
+        "studio-shot"
+      ]
+    },
+    {
+      "team": "Ads Analise",
+      "role": "analista-ads",
+      "skills": [
+        "revenue-intelligence",
+        "growth-engine",
+        "product-analysis",
+        "telemetry"
+      ]
+    },
+    {
+      "team": "Social Estrategia",
+      "role": "estrategista-social",
+      "skills": [
+        "calendario-social-elite",
+        "content-atomizer",
+        "positioning-angles",
+        "brand-voice",
+        "content-engine",
+        "crosspost",
+        "content-ops",
+        "brand-profile",
+        "voice-builder"
+      ]
+    },
+    {
+      "team": "Social LinkedIn",
+      "role": "gestor-linkedin",
+      "skills": [
+        "linkedin-perfil-consultor",
+        "linkedin-posts-imobiliario",
+        "direct-response-copy",
+        "newsletter",
+        "li-post",
+        "li-human",
+        "li-carousel",
+        "li-comment",
+        "li-reply",
+        "li-dm"
+      ]
+    },
+    {
+      "team": "Social TikTok",
+      "role": "gestor-tiktok",
+      "skills": [
+        "guioes-imobiliario",
+        "short-form-pipeline",
+        "yt-shorts",
+        "yt-viral",
+        "video-caption-generator",
+        "tiktok-script",
+        "tiktok-growth",
+        "trend-jacking",
+        "hashtag-strategy",
+        "hook-writer"
+      ]
+    },
+    {
+      "team": "Social Facebook Instagram",
+      "role": "gestor-facebook-instagram",
+      "skills": [
+        "image-prompter",
+        "reels-estilo-gui",
+        "instagram-growth",
+        "carousel-writer",
+        "facebook-groups",
+        "facebook-strategy",
+        "caption-writer"
+      ]
+    },
+    {
+      "team": "Direcao CEO",
+      "role": "ceo",
+      "skills": [
+        "ceo",
+        "team-ops",
+        "finance-ops",
+        "revenue-intelligence",
+        "orchestrate",
+        "product-lens"
+      ]
+    },
+    {
+      "team": "Direcao Comando",
+      "role": "comando",
+      "skills": [
+        {
+          "name": "Diretor IA",
+          "role": "Lead",
+          "activity": "À espera de uma ordem"
+        },
+        {
+          "name": "GPT",
+          "role": "gpt",
+          "activity": "GPT via Codex (ChatGPT Plus)"
+        },
+        {
+          "name": "Gemini",
+          "role": "gemini",
+          "activity": "Gemini 2.5 Flash via OmniRoute"
+        },
+        {
+          "name": "Claude",
+          "role": "claude",
+          "activity": "Claude (só leitura)"
+        }
+      ]
+    },
+    {
+      "team": "Prog Frontend",
+      "role": "frontend",
+      "skills": [
+        "frontend-design",
+        "vercel-react-best-practices",
+        "nextjs-app-router-patterns",
+        "tailwind-design-system",
+        "web-design-guidelines",
+        "ui-ux-pro-max",
+        "taste-skill",
+        "ui-designer"
+      ]
+    },
+    {
+      "team": "Prog Backend e BD",
+      "role": "backend",
+      "skills": [
+        "api-design-principles",
+        "nodejs-backend-patterns",
+        "postgresql-table-design",
+        "database-migrations",
+        "fastapi-templates",
+        "backend-patterns",
+        "claude-api"
+      ]
+    },
+    {
+      "team": "Prog Qualidade",
+      "role": "qualidade",
+      "skills": [
+        "test-driven-development",
+        "systematic-debugging",
+        "verification-before-completion",
+        "code-review",
+        "simplify",
+        "webapp-testing",
+        "e2e-testing"
+      ]
+    },
+    {
+      "team": "Prog Seguranca",
+      "role": "seguranca",
+      "skills": [
+        "security-review",
+        "semgrep",
+        "codeql",
+        "supply-chain-risk-auditor",
+        "insecure-defaults",
+        "sharp-edges"
+      ]
+    },
+    {
+      "team": "Prog Arquitetura",
+      "role": "arquitetura",
+      "skills": [
+        "brainstorming",
+        "writing-plans",
+        "executing-plans",
+        "subagent-driven-development",
+        "architecture-patterns",
+        "search-first"
+      ]
+    },
+    {
+      "team": "Prog 3D e Mobile",
+      "role": "3d-mobile",
+      "skills": [
+        "react-three-fiber",
+        "threejs-webgl",
+        "gsap-scrolltrigger",
+        "motion-framer",
+        "expo-building-native-ui",
+        "react-native-architecture"
+      ]
+    },
+    {
+      "team": "Prog Deploy e Git",
+      "role": "deploy",
+      "skills": [
+        "deployment-patterns",
+        "github-ops",
+        "gh-cli",
+        "git-workflow",
+        "docker-patterns",
+        "cloudflare-troubleshooting"
+      ]
+    },
+    {
+      "team": "Financas Precos",
+      "role": "precos-propostas",
+      "skills": [
+        "proposta-elite",
+        "proposal-builder",
+        "iva-pt-angola",
+        "anthropic-skills:docx",
+        "anthropic-skills:pdf"
+      ]
+    },
+    {
+      "team": "Financas Tesouraria",
+      "role": "tesoureiro",
+      "skills": [
+        "cobrancas-whatsapp",
+        "cash-flow-snapshot",
+        "invoice-chase",
+        "anthropic-skills:xlsx"
+      ]
+    },
+    {
+      "team": "Financas Fiscal",
+      "role": "fiscal",
+      "skills": [
+        "iva-pt-angola",
+        "calendario-fiscal-pt"
+      ]
+    },
+    {
+      "team": "Financas Analise",
+      "role": "analista-financeiro",
+      "skills": [
+        "fecho-mes-elite",
+        "month-end-prep",
+        "business-pulse",
+        "dataviz"
+      ]
+    },
+    {
+      "team": "Mods Criar",
+      "role": "criador-mods",
+      "skills": [
+        "plugin-authoring",
+        "skill-creator",
+        "writing-skills",
+        "hairline-create",
+        "hairline-adopt"
+      ]
+    },
+    {
+      "team": "Mods Config",
+      "role": "config-mods",
+      "skills": [
+        "update-config",
+        "keybindings-help",
+        "claude-hud:setup",
+        "claude-hud:configure",
+        "statusline-setup",
+        "fewer-permission-prompts"
+      ]
+    },
+    {
+      "team": "Imob Rececao",
+      "role": "rececao-imobiliaria",
+      "skills": [
+        "proposta-elite",
+        "proposal-builder",
+        "lead-dossier",
+        "imobiliario-investimento"
+      ]
+    },
+    {
+      "team": "Imob Consultores",
+      "role": "consultor",
+      "skills": [
+        "linkedin-perfil-consultor",
+        "prospect-research",
+        "cold-call-scripts",
+        "vendas-cold-call",
+        "follow-up-emails"
+      ]
+    },
+    {
+      "team": "Imob Conteudo",
+      "role": "conteudo-imobiliario",
+      "skills": [
+        "guioes-imobiliario",
+        "linkedin-posts-imobiliario",
+        "hook-writer",
+        "caption-writer",
+        "reels-estilo-gui"
+      ]
+    },
+    {
+      "team": "Imob Conteudo Video",
+      "role": "editor-imobiliario",
+      "skills": [
+        "editor-imobiliario",
+        "cinematic-camera",
+        "studio-shot",
+        "captions-overlay"
+      ]
+    },
+    {
+      "team": "Imob Conteudo V Exemplo",
+      "role": "guionista-v-exemplo",
+      "skills": [
+        "reels-v-exemplo",
+        "edicao-v-exemplo",
+        "guioes-imobiliario",
+        "hook-writer",
+        "caption-writer",
+        "reels-estilo-gui"
+      ]
+    },
+    {
+      "team": "Imob Academia",
+      "role": "professor-imobiliario",
+      "skills": [
+        "slides-creator",
+        "deep-research",
+        "content-eval",
+        "carousel-writer"
+      ]
+    },
+    {
+      "team": "Imob Consultores VIP",
+      "role": "consultor-vip",
+      "skills": [
+        {
+          "name": "Consultor Exemplo A",
+          "role": "consultor-vip",
+          "activity": "Moradia T4 · Cascais · 1,5 M€"
+        },
+        {
+          "name": "Consultora Exemplo B",
+          "role": "consultor-vip",
+          "activity": "T3 · Lisboa · 650 k€"
+        }
+      ]
+    },
+    {
+      "team": "Prog Fuzzing",
+      "role": "fuzzing",
+      "skills": [
+        "address-sanitizer",
+        "aflpp",
+        "atheris",
+        "cargo-fuzz",
+        "libafl",
+        "libfuzzer",
+        "ossfuzz",
+        "ruzzy",
+        "fuzzing-dictionary",
+        "fuzzing-obstacles",
+        "harness-writing",
+        "coverage-analysis",
+        "constant-time-testing",
+        "wycheproof",
+        "testing-handbook-generator"
+      ]
+    },
+    {
+      "team": "Prog Blockchain",
+      "role": "auditor-blockchain",
+      "skills": [
+        "algorand-vulnerability-scanner",
+        "cairo-vulnerability-scanner",
+        "cosmos-vulnerability-scanner",
+        "solana-vulnerability-scanner",
+        "substrate-vulnerability-scanner",
+        "ton-vulnerability-scanner",
+        "token-integration-analyzer",
+        "audit-prep-assistant",
+        "code-maturity-assessor",
+        "guidelines-advisor",
+        "secure-workflow-guide"
+      ]
+    },
+    {
+      "team": "Prog Auditoria",
+      "role": "auditor",
+      "skills": [
+        "agentic-actions-auditor",
+        "audit-augmentation",
+        "audit-context-building",
+        "burpsuite-project-parser",
+        "c-review",
+        "rust-review",
+        "constant-time-analysis",
+        "differential-review",
+        "dimensional-analysis",
+        "dwarf-expert",
+        "entry-point-analyzer",
+        "firebase-apk-scanner",
+        "fp-check",
+        "sarif-parsing",
+        "semgrep-rule-creator",
+        "semgrep-rule-variant-creator",
+        "spec-to-code-compliance",
+        "variant-analysis",
+        "vulnerability-triage-brocards",
+        "yara-rule-authoring",
+        "zeroize-audit",
+        "reverse-engineer-anything"
+      ]
+    },
+    {
+      "team": "Prog Analise Formal",
+      "role": "analise-formal",
+      "skills": [
+        "trailmark",
+        "trailmark-finding-triage",
+        "trailmark-review-gate",
+        "trailmark-structural",
+        "trailmark-summary",
+        "trailmark-variant-neighborhood",
+        "genotoxic",
+        "graph-evolution",
+        "slicing-code-context",
+        "diagramming-code",
+        "crypto-protocol-diagram",
+        "mermaid-to-proverif",
+        "mutation-testing",
+        "property-based-testing",
+        "writing-lean-proofs"
+      ]
+    },
+    {
+      "team": "Prog Code Review",
+      "role": "revisor",
+      "skills": [
+        "code-improver",
+        "pr-improver",
+        "second-opinion",
+        "github-contributor",
+        "github-triage",
+        "open-sourcing",
+        "qa-expert",
+        "promptfoo-evaluation",
+        "repomix-safe-mixer",
+        "repomix-unmixer"
+      ]
+    },
+    {
+      "team": "Prog Ferramentas",
+      "role": "ferramentas-dev",
+      "skills": [
+        "modern-cpp",
+        "modern-python",
+        "iOS-APP-developer",
+        "i18n-expert",
+        "vercel-composition-patterns",
+        "terraform-skill",
+        "devcontainer-setup",
+        "agent-browser",
+        "debugging-network-issues",
+        "tunnel-doctor",
+        "windows-remote-desktop-connection-doctor",
+        "chrome-mcp-troubleshooting",
+        "config-codex-cli",
+        "macos-cleaner"
+      ]
+    },
+    {
+      "team": "Geral OmniRoute",
+      "role": "omniroute",
+      "skills": [
+        "omni-agents-a2a",
+        "omni-api-keys",
+        "omni-auth",
+        "omni-budget",
+        "omni-cache",
+        "omni-cli-tools",
+        "omni-combos-routing",
+        "omni-compression",
+        "omni-context-rtk",
+        "omni-db-backups",
+        "omni-inference",
+        "omni-mcp",
+        "omni-models",
+        "omni-providers",
+        "omni-proxies",
+        "omni-resilience",
+        "omni-settings",
+        "omni-sync-cloud",
+        "omni-tunnels",
+        "omni-usage-logs",
+        "omni-version-manager",
+        "omni-webhooks"
+      ]
+    },
+    {
+      "team": "Geral CLI OmniRoute",
+      "role": "omniroute-cli",
+      "skills": [
+        "cli-a2a",
+        "cli-backup-sync",
+        "cli-batches",
+        "cli-chat",
+        "cli-compression",
+        "cli-contexts",
+        "cli-cost-usage",
+        "cli-eval",
+        "cli-health",
+        "cli-keys",
+        "cli-mcp",
+        "cli-models",
+        "cli-plugins-skills",
+        "cli-policy-audit",
+        "cli-providers",
+        "cli-resilience",
+        "cli-routing",
+        "cli-serve",
+        "cli-setup",
+        "cli-tunnel"
+      ]
+    },
+    {
+      "team": "Geral Agentes",
+      "role": "gestor-agentes",
+      "skills": [
+        "goal-prompt",
+        "grill-me",
+        "handoff",
+        "let-fate-decide",
+        "prompt-optimizer",
+        "task-observer",
+        "token-saver",
+        "manus",
+        "harness-creator"
+      ]
+    },
+    {
+      "team": "Geral Pesquisa",
+      "role": "investigador",
+      "skills": [
+        "market-researcher",
+        "fact-checker",
+        "firecrawl-developer-index",
+        "scrapling-skill",
+        "twitter-reader",
+        "douban-skill",
+        "feishu-doc-scraper",
+        "ima-copilot",
+        "excel-automation",
+        "teams-channel-post-writer",
+        "interpreting-culture-index"
+      ]
+    },
+    {
+      "team": "Trading Risco",
+      "role": "gestor-risco",
+      "skills": [
+        "drawdown-circuit-breaker",
+        "position-sizer",
+        "pre-trade-discipline-gate",
+        "trade-performance-coach",
+        "weekly-performance-digest"
+      ]
+    },
+    {
+      "team": "Trading Backtest",
+      "role": "backtester",
+      "skills": [
+        "backtest-expert",
+        "vectorbt",
+        "walk-forward-validation",
+        "indicadores-tecnicos",
+        "technical-analyst",
+        "market-breadth-analyzer",
+        "uptrend-analyzer",
+        "gangtise-copilot"
+      ]
+    },
+    {
+      "team": "Edicao Ferramentas",
+      "role": "ferramentas-video",
+      "skills": [
+        "article-highlights",
+        "avaliar-planos",
+        "capture-screen",
+        "claude-video",
+        "claude-vision",
+        "cli-demo-generator",
+        "hypit",
+        "lemo-opuscar",
+        "media-use",
+        "openclaw-video-toolkit",
+        "playwright-recording",
+        "skill-edicao",
+        "slideshow",
+        "update-buttercut",
+        "video-analyzer",
+        "editor-adobe",
+        "editor-blender",
+        "editor-kw-palestras"
+      ]
+    },
+    {
+      "team": "Edicao Imagem",
+      "role": "imagem",
+      "skills": [
+        "higgsfield-product-photoshoot",
+        "image-enhancer",
+        "logo-design",
+        "vector-forge",
+        "llm-icon-finder"
+      ]
+    },
+    {
+      "team": "Edicao ElevenLabs",
+      "role": "elevenlabs",
+      "skills": [
+        "agents",
+        "dubbing",
+        "music",
+        "onboarding",
+        "realtime",
+        "setup-api-key",
+        "sound-effects",
+        "speech-engine",
+        "speech-to-text",
+        "text-to-speech",
+        "voice-changer",
+        "voice-isolator"
+      ]
+    },
+    {
+      "team": "Relacoes Clientes",
+      "role": "gestor-relacoes",
+      "skills": [
+        "relationship-design",
+        "adaptive-communication",
+        "follow-up-emails",
+        "account-qualification"
+      ]
+    },
+    {
+      "team": "Relacoes Comunicacao",
+      "role": "comunicacao",
+      "skills": [
+        "li-dm",
+        "li-reply",
+        "email-sequences",
+        "teams-channel-post-writer"
+      ]
+    },
+    {
+      "team": "Edicao Motion Kits",
+      "role": "motion-kits",
+      "skills": [
+        "video-shotcraft",
+        "onetake",
+        "motionmaxxing"
+      ]
+    },
+    {
+      "team": "Edicao Motion Design",
+      "role": "motion-design",
+      "skills": [
+        "after-effects",
+        "animation-principles",
+        "beat-sync-editing",
+        "color-motion",
+        "logo-animation",
+        "motion-art-direction",
+        "motion-background",
+        "remotion-video",
+        "shot-composition",
+        "kinetic-typography",
+        "generative-illustration",
+        "javascript-animation",
+        "soundtrack",
+        "lower-thirds",
+        "map-animation",
+        "talking-head-b-roll"
+      ]
+    },
+    {
+      "team": "Edicao Motion Web e Dados",
+      "role": "motion-web",
+      "skills": [
+        "60fps-animation",
+        "accessible-animation",
+        "ascii-animation",
+        "glassmorphism",
+        "gsap-web",
+        "lottie-animation",
+        "micro-interaction",
+        "page-transition-animation",
+        "svg-animation",
+        "particle-system",
+        "shader-glsl",
+        "threejs-animation",
+        "manim",
+        "animated-infographic",
+        "chart-animation",
+        "presentation-video"
+      ]
+    },
+    {
+      "team": "Edicao Motion Social e Ads",
+      "role": "motion-social",
+      "skills": [
+        "caption-animation",
+        "countdown-video",
+        "short-form-video",
+        "audiogram",
+        "youtube-intro-outro",
+        "text-message-animation",
+        "photo-slideshow",
+        "product-demo-video",
+        "promo-video",
+        "ad-creative-video",
+        "launch-video",
+        "testimonial-video",
+        "brand-motion-guidelines",
+        "client-revisions",
+        "creative-brief",
+        "motion-pricing",
+        "video-delivery-specs",
+        "diagram-animation",
+        "explainer-video",
+        "isometric-animation",
+        "whiteboard-animation",
+        "wrapped-video",
+        "talking-head"
+      ]
+    },
+    {
+      "team": "Edicao Herk Kit",
+      "role": "herk-edit-kit",
+      "skills": [
+        "cut-mistakes",
+        "cut-silences",
+        "edit-video",
+        "gsap",
+        "hyperframes-video-beats",
+        "make-a-video",
+        "motion-showreel",
+        "short-form-edit",
+        "style-library",
+        "video-storytelling",
+        "website-to-hyperframes"
+      ]
+    },
+    {
+      "team": "Vendas Propostas",
+      "role": "propostas",
+      "skills": [
+        "proposta-elite",
+        "proposal-builder",
+        "offers",
+        "pricing"
+      ]
+    },
+    {
+      "team": "Vendas Retencao",
+      "role": "retencao",
+      "skills": [
+        "churn-prevention",
+        "referrals",
+        "customer-research",
+        "client-revisions"
+      ]
+    },
+    {
+      "team": "Vendas Email",
+      "role": "email-frio",
+      "skills": [
+        "cold-email",
+        "emails",
+        "sms",
+        "sales-enablement",
+        "marketing-psychology"
+      ]
+    },
+    {
+      "team": "Agentes Vendas",
+      "role": "agente",
+      "skills": [
+        {
+          "name": "Prospeccao",
+          "role": "prospeccao",
+          "activity": "Agente · skills: prospect-research, company-intelligence, account-qualification, lead-dossier, lead-intelligence, competitors-analysis"
+        },
+        {
+          "name": "Follow Up",
+          "role": "follow-up",
+          "activity": "Agente · skills: follow-up-emails, email-sequences, multithread-outreach"
+        },
+        {
+          "name": "Fecho",
+          "role": "fecho",
+          "activity": "Agente · skills: vendas-cold-call, cold-call-scripts, powerful-framework, sales-playbook, call-analysis"
+        },
+        {
+          "name": "Copy Vendas",
+          "role": "copy-vendas",
+          "activity": "Agente · skills: positioning-angles, direct-response-copy, lead-magnet, brand-voice, conversion-ops"
+        },
+        {
+          "name": "Pipeline",
+          "role": "pipeline",
+          "activity": "Agente · skills: sales-pipeline, revenue-intelligence, outbound-engine, growth-engine, sales-orchestrator"
+        },
+        {
+          "name": "Propostas",
+          "role": "propostas",
+          "activity": "Agente · skills: proposta-elite, proposal-builder, offers, pricing"
+        },
+        {
+          "name": "Retencao",
+          "role": "retencao",
+          "activity": "Agente · skills: churn-prevention, referrals, customer-research, client-revisions"
+        },
+        {
+          "name": "Email Frio",
+          "role": "email-frio",
+          "activity": "Agente · skills: cold-email, emails, sms, sales-enablement, marketing-psychology"
+        }
+      ]
+    },
+    {
+      "team": "Agentes Edicao",
+      "role": "agente",
+      "skills": [
+        {
+          "name": "Editor Imobiliario",
+          "role": "editor-imobiliario",
+          "activity": "Agente · skills: cinematic-camera, studio-shot, captions-overlay, music"
+        },
+        {
+          "name": "Editor Kw Palestras",
+          "role": "editor-kw-palestras",
+          "activity": "Agente"
+        },
+        {
+          "name": "Editor Clips Virais",
+          "role": "editor-clips-virais",
+          "activity": "Agente · skills: short-form-pipeline, video-clip-pipeline, reels-estilo-gui, yt-shorts, Empresa Exemplo-talking-head, Empresa Exemplo-brutos, improve-retention"
+        },
+        {
+          "name": "Editor Video",
+          "role": "editor-video",
+          "activity": "Agente · skills: edicao-pro, video-use, ffmpeg, moviepy, roughcut, cut-planner, cut-the-curve, seam-craft, talking-head-recut, general-video, video-comparer, music"
+        },
+        {
+          "name": "Editor Animations",
+          "role": "editor-animations",
+          "activity": "Agente · skills: remotion-best-practices, remotion, remotion-official, remotion-motion-graphics, motion-graphics, motion-doctrine, terminal-inserts, cinematic-camera, ahlec-brand-motion-system, ahlec…"
+        },
+        {
+          "name": "Editor Blender",
+          "role": "editor-blender",
+          "activity": "Agente"
+        },
+        {
+          "name": "Editor Adobe",
+          "role": "editor-adobe",
+          "activity": "Agente"
+        },
+        {
+          "name": "Analista Referencias",
+          "role": "analista-referencias",
+          "activity": "Agente · skills: referencia-video, rea-video, reverse-any-video, style-sampling, guioes-imobiliario, hook-writer, edicao-pro, reels-estilo-gui"
+        }
+      ]
+    },
+    {
+      "team": "Agentes Redes Sociais",
+      "role": "agente",
+      "skills": [
+        {
+          "name": "Estrategista Social",
+          "role": "estrategista-social",
+          "activity": "Agente · skills: calendario-social-elite, content-atomizer, positioning-angles, brand-voice, content-engine, crosspost, content-ops, brand-profile, voice-builder, yt-plan"
+        },
+        {
+          "name": "Gestor Linkedin",
+          "role": "gestor-linkedin",
+          "activity": "Agente · skills: linkedin-perfil-consultor, linkedin-posts-imobiliario, direct-response-copy, newsletter, li-post, li-human, li-carousel, li-comment, li-reply, li-dm, anthropic-skills:pdf, hook-writer"
+        },
+        {
+          "name": "Gestor Tiktok",
+          "role": "gestor-tiktok",
+          "activity": "Agente · skills: guioes-imobiliario, short-form-pipeline, yt-shorts, yt-viral, video-caption-generator, tiktok-script, tiktok-growth, trend-jacking, hashtag-strategy, hook-writer, reels-estilo-gui, c…"
+        },
+        {
+          "name": "Gestor Facebook Instagram",
+          "role": "gestor-facebook-instagram",
+          "activity": "Agente · skills: image-prompter, reels-estilo-gui, instagram-growth, carousel-writer, facebook-groups, facebook-strategy, caption-writer, hashtag-strategy, hook-writer"
+        },
+        {
+          "name": "Estrategia Youtube",
+          "role": "estrategia-youtube",
+          "activity": "Agente · skills: yt-plan, yt-script, yt-viral, yt-package, yt-seo, yt-chapters, yt-retention, yt-audit, yt-competitive-analysis, yt-comment, yt-edit, yt-shorts, improve-retention"
+        }
+      ]
+    },
+    {
+      "team": "Agentes Ads",
+      "role": "agente",
+      "skills": [
+        {
+          "name": "Gestor Meta Ads",
+          "role": "gestor-meta-ads",
+          "activity": "Agente · skills: direct-response-copy, positioning-angles, ad-generator, image-prompter, organic-first-campaign"
+        },
+        {
+          "name": "Gestor Google Ads",
+          "role": "gestor-google-ads",
+          "activity": "Agente · skills: keyword-research, seo-landing, conversion-ops, competitors-analysis"
+        },
+        {
+          "name": "Criativos Ads",
+          "role": "criativos-ads",
+          "activity": "Agente · skills: ad-director, ad-assets, skeleton-ads, product-visuals, studio-shot"
+        },
+        {
+          "name": "Analista Ads",
+          "role": "analista-ads",
+          "activity": "Agente · skills: revenue-intelligence, growth-engine, product-analysis, telemetry"
+        }
+      ]
+    },
+    {
+      "team": "Agentes Financas",
+      "role": "agente",
+      "skills": [
+        {
+          "name": "Analista Financeiro",
+          "role": "analista-financeiro",
+          "activity": "Agente · skills: fecho-mes-elite, month-end-prep, business-pulse, dataviz, anthropic-skills:xlsx"
+        },
+        {
+          "name": "Fiscal",
+          "role": "fiscal",
+          "activity": "Agente · skills: iva-pt-angola, calendario-fiscal-pt"
+        },
+        {
+          "name": "Precos Propostas",
+          "role": "precos-propostas",
+          "activity": "Agente · skills: proposta-elite, proposal-builder, iva-pt-angola, anthropic-skills:docx, anthropic-skills:pdf"
+        },
+        {
+          "name": "Tesoureiro",
+          "role": "tesoureiro",
+          "activity": "Agente · skills: cobrancas-whatsapp, cash-flow-snapshot, invoice-chase, anthropic-skills:xlsx"
+        }
+      ]
+    },
+    {
+      "team": "Agentes Trading",
+      "role": "agente",
+      "skills": [
+        {
+          "name": "Analista",
+          "role": "analista",
+          "activity": "Agente · skills: analise-ativo, financial-data-collector, market-research, deep-research, indicadores-tecnicos, position-sizer, market-breadth-analyzer, uptrend-analyzer, vectorbt, walk-forward-valid…"
+        },
+        {
+          "name": "Professor",
+          "role": "professor",
+          "activity": "Agente · skills: aprender-investimento"
+        },
+        {
+          "name": "Trader Demo",
+          "role": "trader-demo",
+          "activity": "Agente · skills: diario-trades, position-sizer, indicadores-tecnicos, pre-trade-discipline-gate, drawdown-circuit-breaker, weekly-performance-digest, trade-performance-coach, analise-ativo"
+        },
+        {
+          "name": "Consultor Imobiliario",
+          "role": "consultor-imobiliario",
+          "activity": "Agente · skills: imobiliario-investimento"
+        }
+      ]
+    },
+    {
+      "team": "Agentes Programacao",
+      "role": "agente",
+      "skills": [
+        {
+          "name": "Frontend",
+          "role": "frontend",
+          "activity": "Agente · skills: frontend-design, vercel-react-best-practices, nextjs-app-router-patterns, tailwind-design-system, web-design-guidelines, ui-ux-pro-max, taste-skill, ui-designer, impeccable, vercel-c…"
+        },
+        {
+          "name": "Backend",
+          "role": "backend",
+          "activity": "Agente · skills: api-design-principles, nodejs-backend-patterns, postgresql-table-design, database-migrations, fastapi-templates, backend-patterns, claude-api"
+        },
+        {
+          "name": "Qualidade Seguranca",
+          "role": "qualidade-seguranca",
+          "activity": "Agente · skills: semgrep, sharp-edges, supply-chain-risk-auditor, secure-workflow-guide, qa-expert"
+        },
+        {
+          "name": "Deploy",
+          "role": "deploy",
+          "activity": "Agente · skills: deployment-patterns, github-ops, gh-cli, git-workflow, docker-patterns, cloudflare-troubleshooting"
+        }
+      ]
+    },
+    {
+      "team": "Agentes Direcao",
+      "role": "agente",
+      "skills": [
+        {
+          "name": "Ceo",
+          "role": "ceo",
+          "activity": "Agente · skills: team-ops, finance-ops, revenue-intelligence, orchestrate, product-lens"
+        },
+        {
+          "name": "Cacador Skills",
+          "role": "cacador-skills",
+          "activity": "Agente · skills: cli-skill-collector, skill-inspector, skill-improver, skill-stocktake, search-first, claude-automation-recommender, omni-github-skills, deep-research"
+        },
+        {
+          "name": "Market Researcher",
+          "role": "market-researcher",
+          "activity": "Agente"
+        },
+        {
+          "name": "Gestor Qualidade",
+          "role": "gestor-qualidade",
+          "activity": "Agente"
+        }
+      ]
+    }
+  ]
+}

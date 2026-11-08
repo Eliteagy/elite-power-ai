@@ -1,0 +1,9 @@
+# Message content intent exceptions
+Context: Discord developer reference: Message content intent exceptions
+[Source](privileged-intent-policy-index.md) / [Owning endpoint, event, object or procedure conditions](who-does-this-apply-to.md) / [Previous source section](message-content-intent-exceptions.md) / [Following source section](message-content-intent-decision.md)
+<a id="source-what-you-can-do-without-the-intent-2"></a>
+
+### What you can do without the intent
+
+ Discord provides interaction primitives so most bots can avoid Message Content intent: **[Slash Commands](https://docs.discord.com/developers/gateway/developers/interactions/application-commands)** are the most direct replacement for text commands. Users enter `/command`, and Discord handles argument parsing, validation, and autocomplete. Slash command options include `string`, `integer`, `number`, `boolean`, `user`, `channel`, `role`, `mentionable`, and `attachment`, which cover most input needs. **[Message Context Menu Commands](https://docs.discord.com/developers/interactions/application-commands#message-commands)** appear from a message context action such as right-click or long-press. The bot receives the full message object, including content, which fits features that act on a selected message, such as reporting, translating, pinning, or saving, without reading every channel message. **[Message Components](https://docs.discord.com/developers/components/overview)** use buttons and select menus to collect structured input for polls, verification, role selection, confirmations, and multi-step flows. **[Modals with Text Inputs](https://docs.discord.com/developers/components/using-modal-components)** present forms for freeform text, checkboxes, and other structured input, suitable for applications, feedback, forms, and prompts where users must type a specific response.
+

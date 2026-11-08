@@ -1,0 +1,30 @@
+{
+ "v1": {
+  "track": "PIAZZA & Plixis - DEMONS",
+  "start": 129.53,
+  "len": 41.708333333333336,
+  "mean_db": -6.865782276763545
+ },
+ "v2": {
+  "track": "Disclosure - You & Me (Rivo Remix) ft. Eliza Doolittle",
+  "start": 104.0,
+  "len": 93.82706666666667,
+  "mean_db": -12.206200447877249
+ },
+ "v3": {
+  "track": "Hydawai x Benji (UK) - Gabriel (Official Audio)",
+  "start": 145.25,
+  "len": 21.755066666666668,
+  "mean_db": -8.093836793954345
+ },
+ "v2a": {
+  "track": "Disclosure - You & Me (Rivo Remix) ft. Eliza Doolittle",
+  "start": 141.5,
+  "len": 55.8558
+ },
+ "v2b": {
+  "track": "Lost Frequencies & Tom Odell - Black Friday (Pretty Like The Sun) (Lyric Video)",
+  "start": 92.75,
+  "len": 43.743700000000004
+ }
+}

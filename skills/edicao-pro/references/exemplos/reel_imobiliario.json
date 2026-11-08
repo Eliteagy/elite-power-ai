@@ -1,0 +1,39 @@
+{
+  "saida": "saida/reel_obra.mp4",
+  "formato": {"w": 1080, "h": 1920, "fps": 30},
+  "som_clips": false,
+  "fontes": {
+    "rua":   {"path": "C:/Users/Goldrajch/Downloads/drive-download-20261012T160832Z-1-001/IMG_0838.MOV", "analise": "analise/IMG_0838.json"},
+    "fach":  {"path": "C:/Users/Goldrajch/Downloads/drive-download-20261012T160832Z-1-004/IMG_0842.MOV"},
+    "sala1": {"path": "C:/Users/Goldrajch/Downloads/drive-download-20261012T160832Z-1-001/IMG_0844.MOV"},
+    "sala2": {"path": "C:/Users/Goldrajch/Downloads/drive-download-20261012T160832Z-1-003/IMG_0847.MOV"},
+    "sala3": {"path": "C:/Users/Goldrajch/Downloads/drive-download-20261012T160832Z-1-001/IMG_0848.MOV"},
+    "bts":   {"path": "C:/Users/Goldrajch/Downloads/drive-download-20261012T160832Z-1-004/IMG_0849.MOV"}
+  },
+  "clips": [
+    {"fonte": "rua",   "in": 2.6,  "out": 4.4,  "zoom": [1.0, 1.12]},
+    {"fonte": "fach",  "in": 6.0,  "out": 9.0,  "zoom": [1.18, 1.0]},
+    {"fonte": "rua",   "in": 9.2,  "out": 11.6, "vel": 1.6, "zoom": 1.05},
+    {"fonte": "sala1", "in": 20,   "out": 44,   "vel": 10, "zoom": [1.0, 1.08]},
+    {"fonte": "sala2", "in": 40,   "out": 76,   "vel": 14, "zoom": [1.1, 1.0]},
+    {"fonte": "bts",   "in": 0,    "out": 30,   "vel": 10, "zoom": [1.0, 1.06]},
+    {"fonte": "sala3", "in": 20,   "out": 50,   "vel": 10, "zoom": [1.06, 1.0]},
+    {"fonte": "fach",  "in": 30,   "out": 34,   "zoom": [1.0, 1.1]}
+  ],
+  "musica": {"path": "C:/Users/Goldrajch/Downloads/_cs/m/paradigm.mp3", "db": -6, "ducking": false, "fade_out": 1.2},
+  "cortar_no_beat": {"beats": "analise/paradigm_beats.json"},
+  "cor_destaque": "dourado",
+  "graficos": [
+    {"type": "hook", "t": 0.1, "ate": "c:1", "text": "Um dia a filmar\num *empreendimento*"},
+    {"type": "titulo", "t": "c:3", "ate": "c:4", "text": "Antes de estar *pronto*"},
+    {"type": "cta", "t": "c:7", "ate": "fim", "text": "Queres ver por dentro? Comenta *OBRA*", "text_color": "preto"}
+  ],
+  "sfx": [
+    {"som": "whoosh_rapido_01", "t": "c:1-0.15", "db": -12},
+    {"som": "riser_curto_antes_do_corte", "t": "c:3-1.0", "db": -14},
+    {"som": "whoosh_medio_01", "t": "c:4-0.15", "db": -14},
+    {"som": "impacto_seco_curto", "t": "c:7", "db": -10}
+  ],
+  "transicoes": [{"t": "c:3", "tipo": "flash", "forca": 0.6}],
+  "grade": {"look": "imob_luminoso", "intensidade": 0.8, "nitidez": 0.2, "vinheta": 0.12}
+}

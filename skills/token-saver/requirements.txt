@@ -1,0 +1,4 @@
+# token-saver skill — requirements.txt
+# All dependencies are from Python standard library.
+# No external packages required.
+# Compatible with Python 3.8+

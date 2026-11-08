@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8" />
+<title>AMK Glass — mesh fundo estático</title>
+<meta name="hz:slide-selector" content=".canvas-916" />
+<meta name="hz:canvas-width" content="1080" />
+<meta name="hz:canvas-height" content="1920" />
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { background:#111; display:flex; justify-content:center; align-items:center; min-height:100vh; }
+
+  .canvas-916 {
+    position:relative;
+    width:1080px; height:1920px;
+    background:#1a1a2e;
+    overflow:hidden;
+  }
+
+  /* dataset fixo de blobs — reproduzir sempre este ou uma variação com a mesma
+     lógica (raio 40-65% da largura, blur >=120px, opacidade 65-90%, sobrepostos) */
+  .blob { position:absolute; border-radius:50%; filter: blur(140px); }
+  .b1 { width:900px; height:900px; left:-260px; top:-180px; background:#FF3EA6; opacity:0.85; }
+  .b2 { width:820px; height:820px; right:-240px; top:120px; background:#3E7BFA; opacity:0.8; }
+  .b3 { width:760px; height:760px; left:50px; bottom:-200px; background:#8B3FFA; opacity:0.78; }
+  .b4 { width:520px; height:520px; right:60px; bottom:200px; background:#FF7A5C; opacity:0.55; }
+  .b5 { width:600px; height:600px; left:260px; top:600px; background:#C9A6FF; opacity:0.5; }
+
+  .grain {
+    position:absolute; inset:0;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.4'/%3E%3C/svg%3E");
+    opacity:0.05;
+    mix-blend-mode: overlay;
+  }
+
+  /* exemplo de painel de vidro sobre o mesh */
+  .glass-panel {
+    position:absolute;
+    left:80px; right:80px; bottom:280px;
+    padding:48px 44px;
+    background: rgba(255,255,255,0.14);
+    backdrop-filter: blur(28px) saturate(180%);
+    -webkit-backdrop-filter: blur(28px) saturate(180%);
+    border-radius:32px;
+    border-top:1px solid rgba(255,255,255,0.4);
+    border-left:1px solid rgba(255,255,255,0.4);
+    border-right:1px solid rgba(255,255,255,0.12);
+    border-bottom:1px solid rgba(255,255,255,0.12);
+    box-shadow: 0 8px 32px rgba(0,0,0,0.18);
+  }
+  .glass-panel h1 {
+    font-family: 'Inter', -apple-system, sans-serif;
+    font-weight:900;
+    font-size:56px;
+    letter-spacing:-0.02em;
+    color:#fff;
+    text-shadow: 0 1px 12px rgba(0,0,0,0.22);
+    line-height:1.05;
+    margin-bottom:16px;
+  }
+  .glass-panel p {
+    font-family: 'Inter', -apple-system, sans-serif;
+    font-size:20px;
+    color:rgba(255,255,255,0.72);
+    text-shadow: 0 1px 12px rgba(0,0,0,0.22);
+  }
+</style>
+</head>
+<body>
+  <div class="canvas-916" data-canvas-width="1080" data-canvas-height="1920">
+    <div class="blob b1"></div>
+    <div class="blob b2"></div>
+    <div class="blob b3"></div>
+    <div class="blob b4"></div>
+    <div class="blob b5"></div>
+    <div class="grain"></div>
+
+    <div class="glass-panel">
+      <h1>Título em vidro</h1>
+      <p>Texto de apoio sempre com sombra suave para se manter legível sobre qualquer zona do mesh.</p>
+    </div>
+  </div>
+</body>
+</html>

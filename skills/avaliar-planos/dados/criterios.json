@@ -1,0 +1,38 @@
+{
+ "tremor_px": {
+  "limite": 0.5,
+  "pior": 2.0,
+  "peso": 35,
+  "sentido": "max"
+ },
+ "salto_px": {
+  "limite": 3.0,
+  "pior": 10.0,
+  "peso": 20,
+  "sentido": "max"
+ },
+ "velocidade_px": {
+  "limite": 4.0,
+  "pior": 15.0,
+  "peso": 10,
+  "sentido": "max"
+ },
+ "nitidez": {
+  "limite": 120.0,
+  "pior": 30.0,
+  "peso": 20,
+  "sentido": "min"
+ },
+ "estourado_pct": {
+  "limite": 8.0,
+  "pior": 35.0,
+  "peso": 10,
+  "sentido": "max"
+ },
+ "escuro_pct": {
+  "limite": 15.0,
+  "pior": 50.0,
+  "peso": 5,
+  "sentido": "max"
+ }
+}

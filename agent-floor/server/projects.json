@@ -1,0 +1,41 @@
+{
+  "_comment": "Guia: os teus sites, apps e vídeos. `folder` é relativo a `root`. Só estes URLs e pastas se podem abrir a partir do floor.",
+  "root": "C:\\Users\\TEU_UTILIZADOR\\Documents\\projetos",
+  "projects": [
+    {
+      "id": "site-exemplo",
+      "name": "Site Exemplo",
+      "type": "site",
+      "client": "Cliente A",
+      "status": "Online",
+      "url": "https://example.com",
+      "folder": "site-exemplo",
+      "keywords": [
+        "site"
+      ]
+    },
+    {
+      "id": "app-exemplo",
+      "name": "App Exemplo",
+      "type": "app",
+      "client": "Agência",
+      "status": "Em construção",
+      "local": "http://localhost:3000",
+      "folder": "app-exemplo",
+      "keywords": [
+        "app"
+      ]
+    },
+    {
+      "id": "videos-exemplo",
+      "name": "Vídeos Exemplo",
+      "type": "video",
+      "client": "Cliente B",
+      "status": "Ativo",
+      "folder": "videos",
+      "keywords": [
+        "reels"
+      ]
+    }
+  ]
+}

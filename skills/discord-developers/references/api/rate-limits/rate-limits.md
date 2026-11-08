@@ -1,0 +1,11 @@
+# Rate limits
+Context: Discord developer reference: Rate limits
+[Source](rate-limits-index.md) / [Following source section](header-format.md)
+<a id="source-rate-limits"></a>
+
+# Rate Limits
+
+> Discord Developers reference. Original prose; identifiers preserved verbatim.
+
+Discord applies rate limits throughout its APIs to reduce spam, abuse, and overload. Limits can apply globally and per route, and they are tracked separately for bots and users. The identity comes from request authentication, such as a bot token for bot requests. Since exact limits depend on several inputs and may change, **rate limits should not be hard coded into your app**. Parse the [response headers](https://docs.discord.com/developers/topics/rate-limits#header-format-rate-limit-header-examples) instead, so the app can avoid a limit or recover correctly after reaching one. **Per-route rate limits** apply to many endpoints and may also account for the HTTP method (`GET`, `POST`, `PUT`, or `DELETE`). Related endpoints can share one route limit; Discord identifies that shared bucket with `X-RateLimit-Bucket`. Treat this header as the bucket key so your app can group shared limits when it discovers them. Per-route calculations often include top-level path resources, such as `guild_id` for [`/guilds/{guild.id}/channels`](https://docs.discord.com/developers/resources/guild#get-guild-channels). The current top-level resources are channels (`channel_id`), guilds (`guild_id`), and webhooks (`webhook_id` or `webhook_id + webhook_token`). As a result, two requests to the same kind of endpoint can have separate limits when they use different top-level resources. For example, exhausting the limit for `/channels/1234` does not necessarily prevent a similar call to `/channels/9876`. **Global rate limits** cover the total request volume for a bot or user, regardless of route-specific buckets. See [global rate limits](https://docs.discord.com/developers/topics/rate-limits#global-rate-limit) for more detail. [Routes for controlling emojis](https://docs.discord.com/developers/resources/emoji#list-guild-emojis) are an exception to the usual model: they are limited per guild to prevent abuse, so returned quota information can be inaccurate and 429 responses may still occur.
+

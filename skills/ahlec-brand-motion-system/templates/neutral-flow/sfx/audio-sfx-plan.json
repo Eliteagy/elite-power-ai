@@ -1,0 +1,16 @@
+{"sfx":[
+ {"file":"impact_intro.wav","kind":"impact","params":{"dur":0.9,"subF":44,"subDecay":0.35,"noiseDur":0.08,"noiseLow":150,"noiseHigh":7000},"reverb":{"decay":0.6,"mix":0.3},"gainDb":-4},
+ {"file":"shimmer_intro.wav","kind":"shimmer","params":{"dur":1.2,"fLow":2500,"fHigh":7500,"n":8,"tremRate":5,"attack":0.25,"decay":0.6},"reverb":{"decay":0.5,"mix":0.3},"gainDb":-16},
+ {"file":"whoosh_rise.wav","kind":"whoosh","params":{"dur":0.9,"f0":250,"f1":3200,"q":0.8,"attack":0.45,"decay":0.35,"pan0":-0.2,"pan1":0.2,"noise":"pink"},"reverb":{"decay":0.4,"mix":0.2},"gainDb":-9},
+ {"file":"whoosh_short.wav","kind":"whoosh","params":{"dur":0.5,"f0":400,"f1":4000,"q":0.8,"attack":0.18,"decay":0.28,"pan0":-0.5,"pan1":0.5},"gainDb":-12},
+ {"file":"sparkle.wav","kind":"sparkle","params":{"dur":0.9,"n":9,"fLow":3000,"fHigh":9000,"decay":0.28,"spread":0.22},"reverb":{"decay":0.4,"mix":0.25},"gainDb":-15},
+ {"file":"sparkle_soft.wav","kind":"sparkle","params":{"dur":0.7,"n":6,"fLow":2500,"fHigh":7000,"decay":0.22,"spread":0.18},"reverb":{"decay":0.3,"mix":0.2},"gainDb":-19},
+ {"file":"pop_ui.wav","kind":"blip","params":{"dur":0.16,"f":900,"harmonics":[[1,1],[2,0.5],[3.01,0.2]],"decay":0.07},"gainDb":-16},
+ {"file":"blip_hi.wav","kind":"blip","params":{"dur":0.12,"f":1500,"harmonics":[[1,1],[2,0.35]],"decay":0.05},"gainDb":-18},
+ {"file":"click_type.wav","kind":"click","params":{"dur":0.012,"fLow":2000,"fHigh":9000},"gainDb":-20},
+ {"file":"hit_cut.wav","kind":"impact","params":{"dur":0.7,"subF":50,"subDecay":0.22,"noiseDur":0.05,"noiseLow":300,"noiseHigh":9000},"reverb":{"decay":0.45,"mix":0.25},"gainDb":-6},
+ {"file":"riser_star.wav","kind":"riser","params":{"dur":1.4,"f0":120,"f1":1800,"noiseMix":0.6,"attack":1.1,"decay":0.3},"reverb":{"decay":0.6,"mix":0.3},"gainDb":-10},
+ {"file":"thump_low.wav","kind":"impact","params":{"dur":0.4,"subF":60,"subDecay":0.15,"noiseDur":0.02,"noiseLow":200,"noiseHigh":2500},"gainDb":-12},
+ {"file":"swell_pad.wav","kind":"pad_swell","params":{"dur":1.6,"freqs":[196,294,392,587],"attack":1.0,"decay":0.6,"detune":0.4},"lowpass":2500,"reverb":{"decay":0.7,"mix":0.35},"gainDb":-18},
+ {"file":"pulse_soft.wav","kind":"tone","params":{"dur":0.25,"f":660,"attack":0.03,"decay":0.15},"lowpass":3000,"gainDb":-22}
+]}

@@ -1,0 +1,217 @@
+{
+ "v1": [
+  {
+   "seg": "v1_hook",
+   "clip": "C0005",
+   "path": "/Volumes/Ex Projects/Projetos Atuais/COiSAS DO GUI/felip video/CASA 01 do 19/C0005.MP4",
+   "src_in": 114,
+   "src_out": 480,
+   "t_in": 3.804,
+   "t_out": 16.03
+  },
+  {
+   "seg": "v1_coz",
+   "clip": "C0007",
+   "path": "/Volumes/Ex Projects/Projetos Atuais/COiSAS DO GUI/felip video/CASA 01 do 18/C0007.MP4",
+   "src_in": 1596,
+   "src_out": 1849,
+   "t_in": 53.26,
+   "t_out": 61.69
+  },
+  {
+   "seg": "v1_sala",
+   "clip": "C0010",
+   "path": "/Volumes/Ex Projects/Projetos Atuais/COiSAS DO GUI/felip video/CASA 01 do 18/C0010.MP4",
+   "src_in": 852,
+   "src_out": 1184,
+   "t_in": 28.43,
+   "t_out": 39.5
+  },
+  {
+   "seg": "v1_cta",
+   "clip": "C0011",
+   "path": "/Volumes/Ex Projects/Projetos Atuais/COiSAS DO GUI/felip video/CASA 01 do 10/C0011.MP4",
+   "src_in": 97,
+   "src_out": 396,
+   "t_in": 3.23,
+   "t_out": 13.21
+  }
+ ],
+ "v3": [
+  {
+   "seg": "v3_inv",
+   "clip": "C0016",
+   "path": "/Volumes/Ex Projects/Projetos Atuais/COiSAS DO GUI/felip video/C0016-002.MP4",
+   "src_in": 3457,
+   "src_out": 3618,
+   "t_in": 115.36,
+   "t_out": 120.73
+  },
+  {
+   "seg": "v3_reg",
+   "clip": "C0016",
+   "path": "/Volumes/Ex Projects/Projetos Atuais/COiSAS DO GUI/felip video/C0016-002.MP4",
+   "src_in": 7942,
+   "src_out": 8071,
+   "t_in": 265.0,
+   "t_out": 269.3
+  },
+  {
+   "seg": "v3_comp",
+   "clip": "C0018",
+   "path": "/Volumes/Ex Projects/Projetos Atuais/COiSAS DO GUI/felip video/CASA 01 do 14/C0018.MP4",
+   "src_in": 1000,
+   "src_out": 1203,
+   "t_in": 33.36,
+   "t_out": 40.15
+  },
+  {
+   "seg": "v3_cta",
+   "clip": "C0018",
+   "path": "/Volumes/Ex Projects/Projetos Atuais/COiSAS DO GUI/felip video/CASA 01 do 14/C0018.MP4",
+   "src_in": 3411,
+   "src_out": 3570,
+   "t_in": 113.8,
+   "t_out": 119.13
+  }
+ ],
+ "v2a": [
+  {
+   "seg": "v2_intro",
+   "clip": "C0013",
+   "path": "/Volumes/Ex Projects/Projetos Atuais/COiSAS DO GUI/felip video/CASA 01 do 12/C0013.MP4",
+   "src_in": 0,
+   "src_out": 131,
+   "t_in": 0.0,
+   "t_out": 4.37
+  },
+  {
+   "seg": "v2_q1",
+   "clip": "C0014",
+   "path": "/Volumes/Ex Projects/Projetos Atuais/COiSAS DO GUI/felip video/CASA 01 do 19/C0014.MP4",
+   "src_in": 732,
+   "src_out": 917,
+   "t_in": 24.42,
+   "t_out": 30.61
+  },
+  {
+   "seg": "v2_q1",
+   "clip": "C0014",
+   "path": "/Volumes/Ex Projects/Projetos Atuais/COiSAS DO GUI/felip video/CASA 01 do 19/C0014.MP4",
+   "src_in": 931,
+   "src_out": 1071,
+   "t_in": 31.08,
+   "t_out": 35.72
+  },
+  {
+   "seg": "v2_q1",
+   "clip": "C0014",
+   "path": "/Volumes/Ex Projects/Projetos Atuais/COiSAS DO GUI/felip video/CASA 01 do 19/C0014.MP4",
+   "src_in": 1121,
+   "src_out": 1251,
+   "t_in": 37.39,
+   "t_out": 41.74
+  },
+  {
+   "seg": "v2_q2",
+   "clip": "C0014",
+   "path": "/Volumes/Ex Projects/Projetos Atuais/COiSAS DO GUI/felip video/CASA 01 do 19/C0014.MP4",
+   "src_in": 1520,
+   "src_out": 1828,
+   "t_in": 50.71,
+   "t_out": 60.99
+  },
+  {
+   "seg": "v2_suite",
+   "clip": "C0014",
+   "path": "/Volumes/Ex Projects/Projetos Atuais/COiSAS DO GUI/felip video/CASA 01 do 19/C0014.MP4",
+   "src_in": 2967,
+   "src_out": 3031,
+   "t_in": 99.01,
+   "t_out": 101.14
+  },
+  {
+   "seg": "v2_suite",
+   "clip": "C0014",
+   "path": "/Volumes/Ex Projects/Projetos Atuais/COiSAS DO GUI/felip video/CASA 01 do 19/C0014.MP4",
+   "src_in": 3047,
+   "src_out": 3176,
+   "t_in": 101.68,
+   "t_out": 105.96
+  },
+  {
+   "seg": "v2_suite",
+   "clip": "C0014",
+   "path": "/Volumes/Ex Projects/Projetos Atuais/COiSAS DO GUI/felip video/CASA 01 do 19/C0014.MP4",
+   "src_in": 3191,
+   "src_out": 3336,
+   "t_in": 106.46,
+   "t_out": 111.31
+  },
+  {
+   "seg": "v2_suite",
+   "clip": "C0014",
+   "path": "/Volumes/Ex Projects/Projetos Atuais/COiSAS DO GUI/felip video/CASA 01 do 19/C0014.MP4",
+   "src_in": 3431,
+   "src_out": 3700,
+   "t_in": 114.49,
+   "t_out": 123.45
+  },
+  {
+   "seg": "v2a_cta",
+   "clip": "C0012",
+   "path": "/Volumes/Ex Projects/Projetos Atuais/COiSAS DO GUI/felip video/CASA 01 do 10/C0012.MP4",
+   "src_in": 32,
+   "src_out": 205,
+   "t_in": 1.06,
+   "t_out": 6.84
+  }
+ ],
+ "v2b": [
+  {
+   "seg": "v2_roof",
+   "clip": "C0015",
+   "path": "/Volumes/Ex Projects/Projetos Atuais/COiSAS DO GUI/felip video/CASA 01 do 10/C0015.MP4",
+   "src_in": 1416,
+   "src_out": 1849,
+   "t_in": 47.25,
+   "t_out": 61.69
+  },
+  {
+   "seg": "v2_roof",
+   "clip": "C0015",
+   "path": "/Volumes/Ex Projects/Projetos Atuais/COiSAS DO GUI/felip video/CASA 01 do 10/C0015.MP4",
+   "src_in": 1860,
+   "src_out": 2136,
+   "t_in": 62.05,
+   "t_out": 71.26
+  },
+  {
+   "seg": "v2_roof2",
+   "clip": "C0015",
+   "path": "/Volumes/Ex Projects/Projetos Atuais/COiSAS DO GUI/felip video/CASA 01 do 10/C0015.MP4",
+   "src_in": 3872,
+   "src_out": 4112,
+   "t_in": 129.19,
+   "t_out": 137.19
+  },
+  {
+   "seg": "v2_cta",
+   "clip": "C0015",
+   "path": "/Volumes/Ex Projects/Projetos Atuais/COiSAS DO GUI/felip video/CASA 01 do 10/C0015.MP4",
+   "src_in": 4180,
+   "src_out": 4289,
+   "t_in": 139.47,
+   "t_out": 143.12
+  },
+  {
+   "seg": "v2_cta",
+   "clip": "C0015",
+   "path": "/Volumes/Ex Projects/Projetos Atuais/COiSAS DO GUI/felip video/CASA 01 do 10/C0015.MP4",
+   "src_in": 4322,
+   "src_out": 4575,
+   "t_in": 144.21,
+   "t_out": 152.66
+  }
+ ]
+}

@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8" />
+<title>AMK SaaS — brand sheet</title>
+<style>
+  @font-face {
+    font-family: 'Inter';
+    src: local('Inter');
+  }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body {
+    background:#050506;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    color:#EDEFF2;
+  }
+  .sheet { width:1600px; padding:64px 88px 48px; }
+  .eyebrow { font-size:12px; letter-spacing:0.18em; text-transform:uppercase; color:#3EA1F9; font-weight:600; margin-bottom:18px; }
+  h1 { font-size:64px; font-weight:900; letter-spacing:-0.02em; text-transform:uppercase; line-height:1.02; margin-bottom:18px; }
+  .sub { font-size:17px; color:#8C97A3; max-width:760px; line-height:1.5; margin-bottom:56px; }
+
+  .section-label { font-size:12px; letter-spacing:0.14em; text-transform:uppercase; color:#8C97A3; margin-bottom:16px; }
+
+  .moods { display:flex; border:1px solid rgba(255,255,255,0.08); border-radius:4px; overflow:hidden; margin-bottom:14px; }
+  .mood { flex:1; padding:28px 24px; border-right:1px solid rgba(255,255,255,0.08); position:relative; height:170px; display:flex; flex-direction:column; justify-content:flex-end; }
+  .mood:last-child { border-right:none; }
+  .mood-bg { position:absolute; inset:0; }
+  .mood-name { font-size:19px; font-weight:800; position:relative; margin-bottom:6px; }
+  .mood-desc { font-size:13px; color:#B8C0C9; position:relative; margin-bottom:10px; }
+  .mood-hex { font-family: ui-monospace, 'SF Mono', monospace; font-size:11px; color:#8C97A3; position:relative; }
+
+  .rowstrip { display:flex; border:1px solid rgba(255,255,255,0.08); border-radius:4px; overflow:hidden; margin-bottom:56px; }
+  .swatch { flex:1; display:flex; align-items:center; gap:12px; padding:16px 20px; border-right:1px solid rgba(255,255,255,0.08); }
+  .swatch:last-child { border-right:none; }
+  .dot { width:20px; height:20px; border-radius:5px; flex-shrink:0; }
+  .swatch-label { font-size:13px; font-weight:600; }
+  .swatch-hex { font-family: ui-monospace, monospace; font-size:11px; color:#8C97A3; }
+
+  .aurora-row { display:flex; border:1px solid rgba(255,255,255,0.08); border-radius:4px; overflow:hidden; margin-bottom:10px; }
+  .aurora-swatch { flex:1; padding:16px 18px; border-right:1px solid rgba(255,255,255,0.08); }
+  .aurora-swatch:last-child { border-right:none; }
+  .aurora-dot { width:100%; height:44px; border-radius:4px; margin-bottom:10px; }
+  .aurora-note { font-size:12.5px; color:#8C97A3; line-height:1.5; max-width:900px; margin-bottom:56px; }
+
+  .two-col { display:grid; grid-template-columns:1fr 1fr; gap:24px; margin-bottom:56px; }
+  .type-card { border:1px solid rgba(255,255,255,0.08); border-radius:4px; padding:36px; }
+  .type-eyebrow { font-family: ui-monospace, monospace; font-size:11px; letter-spacing:0.1em; text-transform:uppercase; color:#3EA1F9; margin-bottom:14px; }
+  .type-display { font-size:44px; font-weight:900; letter-spacing:-0.02em; text-transform:uppercase; margin-bottom:28px; }
+  .type-body { font-size:16px; color:#D3D8DD; line-height:1.5; }
+  .data-card { border:1px solid rgba(255,255,255,0.08); border-radius:4px; }
+  .data-row { display:flex; justify-content:space-between; align-items:baseline; padding:16px 28px; border-bottom:1px solid rgba(255,255,255,0.06); font-family: ui-monospace, monospace; font-size:13px; }
+  .data-row:last-child { border-bottom:none; }
+  .data-row .k { color:#EDEFF2; font-weight:600; }
+  .data-row .v { color:#8C97A3; }
+
+  .bg-grid { display:grid; grid-template-columns: 480px 1fr; gap:24px; margin-bottom:56px; align-items:stretch; }
+  .bg-canvas { position:relative; width:480px; height:720px; background:#030303; border-radius:4px; overflow:hidden; }
+  .bg-stats { display:flex; flex-direction:column; gap:1px; border:1px solid rgba(255,255,255,0.08); border-radius:4px; overflow:hidden; }
+  .bg-stat { flex:1; padding:22px 28px; border-bottom:1px solid rgba(255,255,255,0.08); }
+  .bg-stat:last-child { border-bottom:none; }
+  .bg-stat .big { font-size:30px; font-weight:900; }
+  .bg-stat .big sub { font-size:16px; font-weight:600; }
+  .bg-stat .lbl { font-size:11.5px; color:#8C97A3; text-transform:uppercase; letter-spacing:0.06em; margin-top:4px; }
+
+  .mesh { position:absolute; inset:0; background-image: radial-gradient(rgba(255,255,255,0.05) 0.6px, transparent 0.6px); background-size: 17px 10px; }
+  .aurora-bloom { position:absolute; border-radius:50%; filter: blur(90px); opacity:0.16; }
+  .vignette { position:absolute; inset:0; background: radial-gradient(120% 85% at 50% 45%, transparent 40%, rgba(0,0,0,0.75) 100%); }
+  .shard { position:absolute; width:0; height:0; border-left: calc(var(--s) * 0.58) solid transparent; border-right: calc(var(--s) * 0.58) solid transparent; border-bottom: var(--s) solid rgba(232,236,240, var(--op)); transform: translate(-50%,-50%) rotate(var(--rot)); }
+
+  .comps { display:grid; grid-template-columns: 1fr 1fr 1fr; gap:24px; margin-bottom:32px; }
+  .comp-card { border:1px solid rgba(255,255,255,0.08); border-radius:4px; padding:28px; background:#08080a; }
+  .comp-label { font-family: ui-monospace, monospace; font-size:10.5px; text-transform:uppercase; letter-spacing:0.08em; color:#8C97A3; margin-bottom:20px; }
+  .badge { display:inline-flex; align-items:center; gap:8px; padding:10px 18px; border-radius:100px; background:rgba(255,255,255,0.04); border:1px solid rgba(255,255,255,0.08); box-shadow:0 0 24px rgba(62,161,249,0.35); font-size:14px; font-weight:600; }
+  .badge .dotcheck { width:16px; height:16px; border-radius:50%; background:#3EA1F9; display:flex; align-items:center; justify-content:center; font-size:10px; }
+  .counter-num { font-size:38px; font-weight:900; background:linear-gradient(180deg,#fff,#3EA1F9); -webkit-background-clip:text; background-clip:text; color:transparent; margin-bottom:12px; }
+  .counter-bar { height:4px; border-radius:2px; background:rgba(255,255,255,0.08); overflow:hidden; }
+  .counter-bar-fill { width:68%; height:100%; background:linear-gradient(90deg,#3EA1F9,#9B33F6); }
+  .glow-demo { display:flex; align-items:center; justify-content:center; height:70px; }
+  .glow-dot { width:26px; height:26px; border-radius:50%; background:#3EA1F9; box-shadow:0 0 40px 10px rgba(62,161,249,0.55); }
+
+  .footer { display:flex; justify-content:space-between; font-size:11px; color:#5C6570; padding-top:24px; border-top:1px solid rgba(255,255,255,0.06); }
+</style>
+</head>
+<body>
+<div class="sheet">
+  <div class="eyebrow">AHLEC MAGIKRAFT · MARCA PESSOAL</div>
+  <h1>Design System<br/>AMK SaaS</h1>
+  <div class="sub">Sistema visual e de motion escuro para thumbnails, posts, stories e animações. Fundo preto, mecânica de movimento medida quadro a quadro, três humores de cor + blooms Aurora Mesh para fundos vazios. Sistema irmão: AMK Glass (claro/translúcido).</div>
+
+  <div class="section-label">Paleta — três humores, um chão</div>
+  <div class="moods">
+    <div class="mood">
+      <div class="mood-bg" style="background:radial-gradient(circle at 25% 30%, rgba(62,161,249,0.55), transparent 60%), radial-gradient(circle at 65% 55%, rgba(155,51,246,0.5), transparent 60%), #030303;"></div>
+      <div class="mood-name">DARK NEON</div>
+      <div class="mood-desc">Cósmico, premium. Motion graphics e reveals.</div>
+      <div class="mood-hex">#3EA1F9 → #9B33F6</div>
+    </div>
+    <div class="mood">
+      <div class="mood-bg" style="background:linear-gradient(180deg,#0C1B33,#050E1D 70%);"></div>
+      <div class="mood-name">CINEMATIC TECH</div>
+      <div class="mood-desc">Reveal de produto, processo em si.</div>
+      <div class="mood-hex">#050E1D · #98CEFC</div>
+    </div>
+    <div class="mood">
+      <div class="mood-bg" style="background:#0A0A0F; background-image: linear-gradient(rgba(62,161,249,0.12) 1px, transparent 1px), linear-gradient(90deg, rgba(62,161,249,0.12) 1px, transparent 1px); background-size: 34px 34px;"></div>
+      <div class="mood-name">DARK DASHBOARD</div>
+      <div class="mood-desc">Data-driven, prova social, contadores.</div>
+      <div class="mood-hex">#0A0A0F · #3EA1F9</div>
+    </div>
+  </div>
+
+  <div class="rowstrip">
+    <div class="swatch"><div class="dot" style="background:#030303; border:1px solid #333;"></div><div><div class="swatch-label">Chão</div><div class="swatch-hex">#030303–#0A0A0F</div></div></div>
+    <div class="swatch"><div class="dot" style="background:#EDEFF2;"></div><div><div class="swatch-label">Texto</div><div class="swatch-hex">#EDEFF2</div></div></div>
+    <div class="swatch"><div class="dot" style="background:#8C97A3;"></div><div><div class="swatch-label">Apoio</div><div class="swatch-hex">#8C97A3</div></div></div>
+    <div class="swatch"><div class="dot" style="background:linear-gradient(135deg,#3EA1F9,#9B33F6); box-shadow:0 0 14px rgba(155,51,246,0.6);"></div><div><div class="swatch-label">Glow</div><div class="swatch-hex">sempre a cor do elemento</div></div></div>
+  </div>
+
+  <div class="section-label">Aurora Mesh — extra para fundos vazios</div>
+  <div class="aurora-row">
+    <div class="aurora-swatch"><div class="aurora-dot" style="background:#FF3EA6;"></div><div class="swatch-label">Aurora Pink</div><div class="swatch-hex">#FF3EA6</div></div>
+    <div class="aurora-swatch"><div class="aurora-dot" style="background:#8B3FFA;"></div><div class="swatch-label">Aurora Violet</div><div class="swatch-hex">#8B3FFA</div></div>
+    <div class="aurora-swatch"><div class="aurora-dot" style="background:#3E7BFA;"></div><div class="swatch-label">Aurora Blue</div><div class="swatch-hex">#3E7BFA</div></div>
+    <div class="aurora-swatch"><div class="aurora-dot" style="background:#FF7A5C;"></div><div class="swatch-label">Aurora Coral</div><div class="swatch-hex">#FF7A5C</div></div>
+    <div class="aurora-swatch"><div class="aurora-dot" style="background:#C9A6FF;"></div><div class="swatch-label">Aurora Lavender</div><div class="swatch-hex">#C9A6FF</div></div>
+  </div>
+  <div class="aurora-note">Blooms opcionais por baixo do campo de estilhaços, para peças onde o chão preto fica vazio. 2–3 blobs radiais muito desfocados (blur ≥80px), opacidade 8–18%, nos cantos — nunca atrás do texto principal. O preto continua a dominar; isto só quebra o vazio, não substitui o chão.</div>
+
+  <div class="section-label">Tipografia — uma família, dois papéis</div>
+  <div class="two-col">
+    <div class="type-card">
+      <div class="type-eyebrow">Display · Inter Black 900</div>
+      <div class="type-display">Sistema AMK</div>
+      <div class="type-eyebrow" style="margin-top:0;">Body · Inter Regular/Medium</div>
+      <div class="type-body">Texto corrido, legendas de story e descrições de card usam este peso — mesma família, sem trocar de fonte.</div>
+    </div>
+    <div class="data-card">
+      <div class="data-row"><span class="k">DADOS · UI-MONOSPACE</span><span class="v"></span></div>
+      <div class="data-row"><span class="k">meia-vida</span><span class="v">8f · 0.267s</span></div>
+      <div class="data-row"><span class="k">90% do movimento</span><span class="v">0.89s</span></div>
+      <div class="data-row"><span class="k">overshoot</span><span class="v">&lt; 2%</span></div>
+      <div class="data-row"><span class="k">cadência</span><span class="v">2.0–2.5s / ideia</span></div>
+      <div class="data-row"><span class="k">curva</span><span class="v">1−e⁻⁶·³ˣ</span></div>
+    </div>
+  </div>
+
+  <div class="section-label">Fundo — Shadow Grid + Aurora Mesh</div>
+  <div class="bg-grid">
+    <div class="bg-canvas">
+      <div class="mesh"></div>
+      <div class="aurora-bloom" style="width:340px; height:340px; left:-80px; top:-60px; background:#FF3EA6;"></div>
+      <div class="aurora-bloom" style="width:300px; height:300px; right:-90px; bottom:40px; background:#3E7BFA;"></div>
+      <div class="aurora-bloom" style="width:220px; height:220px; right:-40px; top:180px; background:#8B3FFA; opacity:0.12;"></div>
+      <div class="shard" style="left:270px; top:90px; --s:16px; --rot:192.9deg; --op:0.33"></div>
+      <div class="shard" style="left:50px; top:310px; --s:9px; --rot:25.1deg; --op:0.32"></div>
+      <div class="shard" style="left:170px; top:160px; --s:19px; --rot:225.9deg; --op:0.44"></div>
+      <div class="shard" style="left:400px; top:60px; --s:24px; --rot:309deg; --op:0.44"></div>
+      <div class="shard" style="left:130px; top:580px; --s:10px; --rot:65.1deg; --op:0.29"></div>
+      <div class="shard" style="left:230px; top:80px; --s:28px; --rot:21.5deg; --op:0.46"></div>
+      <div class="shard" style="left:135px; top:420px; --s:29px; --rot:163.1deg; --op:0.49"></div>
+      <div class="shard" style="left:100px; top:410px; --s:36px; --rot:189.1deg; --op:0.6"></div>
+      <div class="shard" style="left:400px; top:130px; --s:32px; --rot:150.5deg; --op:0.48"></div>
+      <div class="shard" style="left:40px; top:490px; --s:10px; --rot:275.2deg; --op:0.33"></div>
+      <div class="shard" style="left:300px; top:430px; --s:40px; --rot:208.8deg; --op:0.55"></div>
+      <div class="shard" style="left:200px; top:480px; --s:38px; --rot:21.8deg; --op:0.68"></div>
+      <div class="shard" style="left:340px; top:210px; --s:28px; --rot:138.9deg; --op:0.57"></div>
+      <div class="shard" style="left:70px; top:85px; --s:8px; --rot:21.2deg; --op:0.31"></div>
+      <div class="shard" style="left:165px; top:640px; --s:9px; --rot:29deg; --op:0.3"></div>
+      <div class="shard" style="left:340px; top:630px; --s:22px; --rot:100.2deg; --op:0.51"></div>
+      <div class="shard" style="left:395px; top:110px; --s:16px; --rot:63.4deg; --op:0.43"></div>
+      <div class="shard" style="left:245px; top:195px; --s:11px; --rot:1.5deg; --op:0.34"></div>
+      <div class="vignette"></div>
+    </div>
+    <div class="bg-stats">
+      <div class="bg-stat"><div class="big">57</div><div class="lbl">Estilhaços por frame</div></div>
+      <div class="bg-stat"><div class="big">17<sub>×10</sub>px</div><div class="lbl">Período da malha</div></div>
+      <div class="bg-stat"><div class="big">250°–290°</div><div class="lbl">Ângulo de deriva</div></div>
+      <div class="bg-stat"><div class="big">2–3<sub>blobs</sub></div><div class="lbl">Aurora Mesh, 8–18% opacidade</div></div>
+    </div>
+  </div>
+
+  <div class="section-label">Componentes, em repouso</div>
+  <div class="comps">
+    <div class="comp-card">
+      <div class="comp-label">Badge</div>
+      <div class="badge"><span class="dotcheck">✓</span> Publicado</div>
+    </div>
+    <div class="comp-card">
+      <div class="comp-label">Contador</div>
+      <div class="counter-num">2.4K</div>
+      <div class="counter-bar"><div class="counter-bar-fill"></div></div>
+    </div>
+    <div class="comp-card">
+      <div class="comp-label">Glow</div>
+      <div class="glow-demo"><div class="glow-dot"></div></div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <span>Design System AMK SaaS · v2 · MagiKraft Skills / ahlec-brand-motion-system</span>
+    <span>Sistema irmão: AMK Glass</span>
+  </div>
+</div>
+</body>
+</html>

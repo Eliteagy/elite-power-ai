@@ -1,0 +1,25 @@
+{
+  "saida": "saida/yt_QV1.mp4",
+  "formato": {"w": 1920, "h": 1080, "fps": 30},
+  "fontes": {"a": {"path": "C:/Users/Goldrajch/Videos/feitos e metidos/QV1.mov", "analise": "analise/QV1.json"}},
+  "aroll": {"fonte": "a", "max_gap": 0.35, "pad": [0.06, 0.12], "push": 0.02,
+            "punch": {"cada": 5, "niveis": [1.0, 1.18]},
+            "segmentos": [{"palavras": [0, 21], "entrada": "impacto"}, {"palavras": [25, 41]}, {"palavras": [42, 53]},
+                          {"palavras": [62, 99]}, {"palavras": [100, 133]}, {"palavras": [134, 165]}]},
+  "cor_destaque": "amarelo",
+  "graficos": [
+    {"type": "titulo", "t": 0.2, "ate": "w:9", "text": "Aula 2 · Quadro de *visualização*"},
+    {"type": "card", "t": "w:52", "dur": 2.2, "text": "Fonte das imagens: *Pinterest*"},
+    {"type": "capitulo", "t": "w:100", "dur": 2.4, "text": "O que meter no quadro", "sub": "01"},
+    {"type": "lower_third", "t": "w:134", "dur": 3.0, "text": "Exemplo pessoal", "sub": "Rolex como objetivo"}
+  ],
+  "legendas": {"estilo": "minimal", "corrigir": {"bem": "Bem"}},
+  "sfx": [
+    {"som": "swish_texto_curto", "t": 0.2, "db": -18},
+    {"som": "pop_suave", "t": "w:52", "db": -18},
+    {"som": "whoosh_medio_01", "t": "w:100-0.2", "db": -16}
+  ],
+  "musica": {"path": "C:/Users/Goldrajch/Downloads/_cs/m/monroe.mp3", "db": -24, "ducking": true},
+  "grade": {"look": "neutro_cine", "intensidade": 0.8, "grao": 0.08, "vinheta": 0.2, "nitidez": 0.2},
+  "audio": {"lufs": -14}
+}

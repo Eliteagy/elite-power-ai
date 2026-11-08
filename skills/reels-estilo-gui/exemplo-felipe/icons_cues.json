@@ -1,0 +1,416 @@
+{
+ "v1": [
+  {
+   "cards": [
+    [
+     "paredes",
+     1,
+     "construction",
+     "POR TRÁS DAS PAREDES"
+    ]
+   ],
+   "end": 8.6
+  },
+  {
+   "cards": [
+    [
+     "cozinha",
+     1,
+     "kitchen",
+     "COZINHA"
+    ]
+   ],
+   "end": 14.7
+  },
+  {
+   "cards": [
+    [
+     "água",
+     1,
+     "water_drop",
+     "ÁGUA"
+    ],
+    [
+     "eletricidade",
+     1,
+     "bolt",
+     "ELETRICIDADE"
+    ],
+    [
+     "equipamentos",
+     1,
+     "countertops",
+     "EQUIPAMENTOS"
+    ]
+   ],
+   "end": 18.2
+  },
+  {
+   "cards": [
+    [
+     "cozinhando",
+     1,
+     "skillet",
+     "COZINHAR"
+    ]
+   ],
+   "end": 20.4
+  },
+  {
+   "cards": [
+    [
+     "sala",
+     1,
+     "weekend",
+     "SALA"
+    ]
+   ],
+   "end": 22.6
+  },
+  {
+   "cards": [
+    [
+     "pavimento",
+     1,
+     "grid_view",
+     "PAVIMENTO"
+    ],
+    [
+     "ar-condicionado",
+     1,
+     "ac_unit",
+     "AR CONDICIONADO"
+    ],
+    [
+     "luz",
+     1,
+     "light",
+     "LUZ EMBUTIDA"
+    ]
+   ],
+   "end": 27.1
+  },
+  {
+   "cards": [
+    [
+     "vãos",
+     1,
+     "window",
+     "GRANDES VÃOS"
+    ],
+    [
+     "luminosidade",
+     1,
+     "wb_sunny",
+     "LUZ NATURAL"
+    ]
+   ],
+   "end": 31.5
+  },
+  {
+   "cards": [
+    [
+     "curtir",
+     1,
+     "favorite",
+     "CURTIR"
+    ],
+    [
+     "seguir",
+     1,
+     "person_add",
+     "SEGUIR"
+    ],
+    [
+     "mandar",
+     1,
+     "send",
+     "PARTILHAR"
+    ]
+   ],
+   "end": 39.9
+  }
+ ],
+ "v2a": [
+  {
+   "cards": [
+    [
+     "quartos",
+     1,
+     "bed",
+     "3 QUARTOS"
+    ]
+   ],
+   "end": 4.3
+  },
+  {
+   "cards": [
+    [
+     "armário",
+     1,
+     "door_sliding",
+     "ARMÁRIO"
+    ]
+   ],
+   "end": 8.7
+  },
+  {
+   "cards": [
+    [
+     "varanda",
+     1,
+     "balcony",
+     "VARANDA"
+    ]
+   ],
+   "end": 19.3
+  },
+  {
+   "cards": [
+    [
+     "armário",
+     2,
+     "door_sliding",
+     "ARMÁRIO"
+    ],
+    [
+     "luzes",
+     1,
+     "light",
+     "LUZES"
+    ],
+    [
+     "ar-condicionado",
+     1,
+     "ac_unit",
+     "AR CONDICIONADO"
+    ]
+   ],
+   "end": 29.8
+  },
+  {
+   "cards": [
+    [
+     "master suite",
+     1,
+     "king_bed",
+     "MASTER SUITE"
+    ]
+   ],
+   "end": 32.6
+  },
+  {
+   "cards": [
+    [
+     "closet",
+     1,
+     "checkroom",
+     "CLOSET"
+    ],
+    [
+     "banheiro",
+     1,
+     "bathtub",
+     "BANHEIRO"
+    ]
+   ],
+   "end": 40.8
+  },
+  {
+   "cards": [
+    [
+     "vista",
+     1,
+     "landscape",
+     "VISTA"
+    ]
+   ],
+   "end": 50.0
+  },
+  {
+   "cards": [
+    [
+     "siga",
+     1,
+     "person_add",
+     "SEGUIR"
+    ],
+    [
+     "curta",
+     1,
+     "favorite",
+     "CURTIR"
+    ],
+    [
+     "envie",
+     1,
+     "send",
+     "PARTILHAR"
+    ]
+   ],
+   "end": null
+  }
+ ],
+ "v2b": [
+  {
+   "cards": [
+    [
+     "escada",
+     1,
+     "stairs",
+     "ESCADA"
+    ]
+   ],
+   "end": 8.9
+  },
+  {
+   "cards": [
+    [
+     "social",
+     1,
+     "groups",
+     "ÁREA SOCIAL"
+    ]
+   ],
+   "end": 13.4
+  },
+  {
+   "cards": [
+    [
+     "vista",
+     1,
+     "landscape",
+     "VISTA"
+    ],
+    [
+     "pôr",
+     1,
+     "wb_twilight",
+     "PÔR DO SOL"
+    ]
+   ],
+   "end": 23.6
+  },
+  {
+   "cards": [
+    [
+     "sala",
+     1,
+     "weekend",
+     "SALA DE ESTAR"
+    ],
+    [
+     "banheiro",
+     1,
+     "bathtub",
+     "BANHEIRO"
+    ]
+   ],
+   "end": 31.3
+  },
+  {
+   "cards": [
+    [
+     "mensagem",
+     1,
+     "chat",
+     "MENSAGEM"
+    ],
+    [
+     "café",
+     1,
+     "local_cafe",
+     "CAFÉ"
+    ]
+   ],
+   "end": null
+  }
+ ],
+ "v3": [
+  {
+   "cards": [
+    [
+     "investimento",
+     1,
+     "trending_up",
+     "INVESTIMENTO"
+    ],
+    [
+     "euros",
+     1,
+     "euro",
+     "MILHARES DE €"
+    ]
+   ],
+   "end": 5.3
+  },
+  {
+   "cards": [
+    [
+     "edifícios",
+     1,
+     "apartment",
+     "NOVOS EDIFÍCIOS"
+    ],
+    [
+     "demanda",
+     1,
+     "local_fire_department",
+     "ALTA DEMANDA"
+    ],
+    [
+     "mercado",
+     1,
+     "sell",
+     "ABAIXO DO MERCADO"
+    ]
+   ],
+   "end": 9.6
+  },
+  {
+   "cards": [
+    [
+     "valorização",
+     1,
+     "show_chart",
+     "VALORIZAÇÃO"
+    ]
+   ],
+   "end": 12.8
+  },
+  {
+   "cards": [
+    [
+     "hoje",
+     1,
+     "savings",
+     "PREÇO DE HOJE"
+    ],
+    [
+     "anos",
+     2,
+     "trending_up",
+     "DAQUI A 2 ANOS"
+    ]
+   ],
+   "end": 16.7
+  },
+  {
+   "cards": [
+    [
+     "números",
+     1,
+     "bar_chart",
+     "NÚMEROS"
+    ],
+    [
+     "mensagem",
+     1,
+     "chat",
+     "MENSAGEM"
+    ]
+   ],
+   "end": null
+  }
+ ]
+}

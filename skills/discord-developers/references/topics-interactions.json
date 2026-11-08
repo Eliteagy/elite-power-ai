@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "topics": [
+    {"topic": "Application-command objects, options, registration and command permissions", "file": "references/interactions/commands/command-definitions-and-registration-index.md", "summary": "Open when looking up application-command objects, options, registration and command permissions.", "keywords": ["Discord developers"]},
+    {"topic": "Command options/subcommand groups, permission command examples and command management", "file": "references/interactions/commands/subcommands-and-localization-index.md", "summary": "Open when looking up command options/subcommand groups, permission command examples and command management.", "keywords": ["Discord developers"]},
+    {"topic": "Remaining application-command endpoint parameters, permissions and responses", "file": "references/interactions/commands/command-endpoints-and-permissions-index.md", "summary": "Open when looking up remaining application-command endpoint parameters, permissions and responses.", "keywords": ["Discord developers"]},
+    {"topic": "Choosing commands, message components or modals as interaction entry points", "file": "references/interactions/overview/interaction-types-index.md", "summary": "Open when choosing commands, message components or modals as interaction entry points.", "keywords": ["Discord developers"]},
+    {"topic": "Interaction objects, receiving/validating interactions and response callback types", "file": "references/interactions/responses/interaction-objects-and-responses-index.md", "summary": "Open when looking up interaction objects, receiving/validating interactions and response callback types.", "keywords": ["Discord developers"]},
+    {"topic": "Interaction response/follow-up endpoint parameters and editing/deleting responses", "file": "references/interactions/responses/followup-message-endpoints-index.md", "summary": "Open when looking up interaction response/follow-up endpoint parameters and editing/deleting responses.", "keywords": ["Discord developers"]},
+    {"topic": "Reference Language Selection", "file": "references/languages.md", "summary": "Open when you need a language version of this skill's references other than English.", "keywords": ["reference language", "translated references", "language selection"]}
+  ]
+}

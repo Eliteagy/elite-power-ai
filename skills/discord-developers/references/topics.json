@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "topics": [
+    {"topic": "Activities and Embedded App SDK", "file": "references/topics-activities.json", "summary": "Open when working with activities and Embedded App SDK.", "keywords": ["Discord developers"]},
+    {"topic": "Message and modal components", "file": "references/topics-components.json", "summary": "Open when working with message and modal components.", "keywords": ["Discord developers"]},
+    {"topic": "Social SDK concepts and design", "file": "references/topics-social-core.json", "summary": "Open when working with social SDK concepts and design.", "keywords": ["Discord developers"]},
+    {"topic": "Social SDK identity and friends", "file": "references/topics-social-identity.json", "summary": "Open when working with social SDK identity and friends.", "keywords": ["Discord developers"]},
+    {"topic": "Social SDK game communication", "file": "references/topics-social-play.json", "summary": "Open when working with social SDK game communication.", "keywords": ["Discord developers"]},
+    {"topic": "Native and engine SDK integration", "file": "references/topics-native-sdk.json", "summary": "Open when working with native and engine SDK integration.", "keywords": ["Discord developers"]},
+    {"topic": "Gateway and event delivery", "file": "references/topics-gateway.json", "summary": "Open when working with gateway and event delivery.", "keywords": ["Discord developers"]},
+    {"topic": "Commands and interaction responses", "file": "references/topics-interactions.json", "summary": "Open when working with commands and interaction responses.", "keywords": ["Discord developers"]},
+    {"topic": "Apps, onboarding and discovery", "file": "references/topics-applications.json", "summary": "Open when working with apps, onboarding and discovery.", "keywords": ["Discord developers"]},
+    {"topic": "Monetization and game presence", "file": "references/topics-commerce.json", "summary": "Open when working with monetization and game presence.", "keywords": ["Discord developers"]},
+    {"topic": "API conventions, authorization and transport", "file": "references/topics-http-auth.json", "summary": "Open when working with API conventions, authorization and transport.", "keywords": ["Discord developers"]},
+    {"topic": "Guilds, moderation and scheduled events", "file": "references/topics-guilds.json", "summary": "Open when working with guilds, moderation and scheduled events.", "keywords": ["Discord developers"]},
+    {"topic": "Channels, messages and webhooks", "file": "references/topics-messaging.json", "summary": "Open when working with channels, messages and webhooks.", "keywords": ["Discord developers"]},
+    {"topic": "Applications, users, invites and other resources", "file": "references/topics-resources.json", "summary": "Open when working with applications, users, invites and other resources.", "keywords": ["Discord developers"]},
+    {"topic": "Dated developer changelog", "file": "references/topics-changelog.json", "summary": "Open when working with dated developer changelog.", "keywords": ["Discord developers"]},
+    {"topic": "Reference Language Selection", "file": "references/languages.md", "summary": "Open when you need a language version of this skill's references other than English.", "keywords": ["reference language", "translated references", "language selection"]}
+  ]
+}

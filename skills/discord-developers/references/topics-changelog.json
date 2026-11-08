@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "topics": [
+    {
+      "topic": "Discord developer changes in 2026",
+      "file": "references/changelog/2026/INDEX.md",
+      "summary": "Open when checking Discord API or SDK changes announced in 2026.",
+      "keywords": ["Discord changes", "2026"]
+    },
+    {
+      "topic": "Discord developer changes in 2025",
+      "file": "references/changelog/2025/INDEX.md",
+      "summary": "Open when checking Discord API or SDK changes announced in 2025.",
+      "keywords": ["Discord changes", "2025"]
+    },
+    {
+      "topic": "Discord developer changes in 2024",
+      "file": "references/changelog/2024/INDEX.md",
+      "summary": "Open when checking Discord API or SDK changes announced in 2024.",
+      "keywords": ["Discord changes", "2024"]
+    },
+    {
+      "topic": "Discord developer changes in 2023",
+      "file": "references/changelog/2023/INDEX.md",
+      "summary": "Open when checking Discord API or SDK changes announced in 2023.",
+      "keywords": ["Discord changes", "2023"]
+    },
+    {
+      "topic": "Discord developer changes in 2022",
+      "file": "references/changelog/2022/INDEX.md",
+      "summary": "Open when checking Discord API or SDK changes announced in 2022.",
+      "keywords": ["Discord changes", "2022"]
+    },
+    {
+      "topic": "Discord developer changes in 2021",
+      "file": "references/changelog/2021/INDEX.md",
+      "summary": "Open when checking Discord API or SDK changes announced in 2021.",
+      "keywords": ["Discord changes", "2021"]
+    },
+    {
+      "topic": "Discord developer changes in 2020",
+      "file": "references/changelog/2020/INDEX.md",
+      "summary": "Open when checking Discord API or SDK changes announced in 2020.",
+      "keywords": ["Discord changes", "2020"]
+    },
+    {
+      "topic": "Discord developer changes in 2019",
+      "file": "references/changelog/2019/INDEX.md",
+      "summary": "Open when checking Discord API or SDK changes announced in 2019.",
+      "keywords": ["Discord changes", "2019"]
+    },
+    {
+      "topic": "Discord developer changes in 2018",
+      "file": "references/changelog/2018/INDEX.md",
+      "summary": "Open when checking Discord API or SDK changes announced in 2018.",
+      "keywords": ["Discord changes", "2018"]
+    },
+    {
+      "topic": "Discord developer changes in 2017",
+      "file": "references/changelog/2017/INDEX.md",
+      "summary": "Open when checking Discord API or SDK changes announced in 2017.",
+      "keywords": ["Discord changes", "2017"]
+    },
+    {
+      "topic": "Reference Language Selection",
+      "file": "references/languages.md",
+      "summary": "Open when you need a language version of this skill's references other than English.",
+      "keywords": ["reference language", "translated references", "language selection"]
+    }
+  ]
+}

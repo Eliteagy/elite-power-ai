@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "topics": [
+    {"topic": "Application objects/install contexts, application editing, Activity instances and role-connection metadata", "file": "references/resources/applications/application-objects-and-endpoints-index.md", "summary": "Open when looking up application objects/install contexts, application editing, Activity instances and role-connection metadata.", "keywords": ["Discord developers"]},
+    {"topic": "Invites/target users and lobby membership, channels, messages and community invites", "file": "references/resources/invites-and-lobbies-index.md", "summary": "Open when looking up invites/target users and lobby membership, channels, messages and community invites.", "keywords": ["Discord developers"]},
+    {"topic": "Poll objects/voters, SKUs, soundboard sounds and stage-instance endpoints", "file": "references/resources/polls-stage-instances-and-skus-index.md", "summary": "Open when looking up poll objects/voters, SKUs, soundboard sounds and stage-instance endpoints.", "keywords": ["Discord developers"]},
+    {"topic": "User/connection/role-connection objects, DMs and voice-region/state endpoints", "file": "references/resources/users-and-voice-index.md", "summary": "Open when looking up user/connection/role-connection objects, DMs and voice-region/state endpoints.", "keywords": ["Discord developers"]},
+    {"topic": "Building linked-role metadata schemas, OAuth installation and role acquisition", "file": "references/applications/linked-roles/configuring-app-metadata-for-linked-roles-index.md", "summary": "Open when building linked-role metadata schemas, OAuth installation and role acquisition.", "keywords": ["Discord developers"]},
+    {"topic": "Role-granting and targeted community invites with complete examples", "file": "references/applications/community-invites/using-community-invites-index.md", "summary": "Open when role-granting and targeted community invites with complete examples.", "keywords": ["Discord developers"]},
+    {"topic": "Reference Language Selection", "file": "references/languages.md", "summary": "Open when you need a language version of this skill's references other than English.", "keywords": ["reference language", "translated references", "language selection"]}
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "topics": [
+    {"topic": "Standalone C++ Social SDK project setup, callbacks, authorization and connection state", "file": "references/social-sdk/cpp/cpp-setup-and-authentication-index.md", "summary": "Open when looking up standalone C++ Social SDK project setup, callbacks, authorization and connection state.", "keywords": ["Discord developers"]},
+    {"topic": "Complete C++ friends-count and Rich Presence programs with OAuth/callback setup", "file": "references/social-sdk/cpp/cpp-relationships-and-presence-index.md", "summary": "Open when looking up complete C++ friends-count and Rich Presence programs with OAuth/callback setup.", "keywords": ["Discord developers"]},
+    {"topic": "Unity Social SDK project/inspector setup, manager initialization, OAuth and friends", "file": "references/social-sdk/unity/unity-setup-and-authentication-index.md", "summary": "Open when looking up Unity Social SDK project/inspector setup, manager initialization, OAuth and friends.", "keywords": ["Discord developers"]},
+    {"topic": "Complete Unity friends-count and Rich Presence manager implementations", "file": "references/social-sdk/unity/unity-relationships-and-presence-index.md", "summary": "Open when looking up complete Unity friends-count and Rich Presence manager implementations.", "keywords": ["Discord developers"]},
+    {"topic": "Unreal Social SDK project setup, character integration and authentication", "file": "references/social-sdk/unreal/unreal-setup-and-authentication-index.md", "summary": "Open when looking up Unreal Social SDK project setup, character integration and authentication.", "keywords": ["Discord developers"]},
+    {"topic": "Complete Unreal character implementation/header and integration continuation", "file": "references/social-sdk/unreal/unreal-complete-character-index.md", "summary": "Open when looking up complete Unreal character implementation/header and integration continuation.", "keywords": ["Discord developers"]},
+    {"topic": "Reference Language Selection", "file": "references/languages.md", "summary": "Open when you need a language version of this skill's references other than English.", "keywords": ["reference language", "translated references", "language selection"]}
+  ]
+}

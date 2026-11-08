@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "topics": [
+    {"topic": "Audit-log objects, changes, actions and guild audit-log retrieval", "file": "references/guilds/audit-log/audit-log-index.md", "summary": "Open when looking up audit-log objects, changes, actions and guild audit-log retrieval.", "keywords": ["Discord developers"]},
+    {"topic": "Auto-moderation rules/actions, permission requirements and rule management endpoints", "file": "references/guilds/auto-moderation/auto-moderation-index.md", "summary": "Open when looking up auto-moderation rules/actions, permission requirements and rule management endpoints.", "keywords": ["Discord developers"]},
+    {"topic": "Guild, preview, widget, member, integration, ban, welcome-screen and onboarding objects", "file": "references/guilds/guild/guild-objects-and-configuration-index.md", "summary": "Open when looking up guild, preview, widget, member, integration, ban, welcome-screen and onboarding objects.", "keywords": ["Discord developers"]},
+    {"topic": "Guild modification, channels, members, roles, bans and screening/incidents contracts", "file": "references/guilds/guild/guild-members-and-ban-endpoints-index.md", "summary": "Open when looking up guild modification, channels, members, roles, bans and screening/incidents contracts.", "keywords": ["Discord developers"]},
+    {"topic": "Guild role/prune/integration/widget/welcome/onboarding and incident-action endpoints", "file": "references/guilds/guild/roles-pruning-and-guild-settings-index.md", "summary": "Open when looking up guild role/prune/integration/widget/welcome/onboarding and incident-action endpoints.", "keywords": ["Discord developers"]},
+    {"topic": "Scheduled events, recurrence/status/permissions and guild templates", "file": "references/resources/scheduled-events-and-templates-index.md", "summary": "Open when looking up scheduled events, recurrence/status/permissions and guild templates.", "keywords": ["Discord developers"]},
+    {"topic": "Reference Language Selection", "file": "references/languages.md", "summary": "Open when you need a language version of this skill's references other than English.", "keywords": ["reference language", "translated references", "language selection"]}
+  ]
+}

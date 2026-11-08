@@ -1,0 +1,6 @@
+numpy
+pillow
+opencv-python
+demucs
+faster-whisper ; platform_system != "Darwin"
+mlx-whisper ; platform_system == "Darwin" and platform_machine == "arm64"

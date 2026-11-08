@@ -1,0 +1,33 @@
+{
+  "saida": "saida/reel_LA.mp4",
+  "formato": {"w": 1080, "h": 1920, "fps": 30},
+  "fontes": {"a": {"path": "C:/Users/Goldrajch/Videos/feitos e metidos/Intruduçao LA .mov", "analise": "analise/Intruduçao LA.json"}},
+  "aroll": {
+    "fonte": "a", "foco": [0.5, 0.45], "max_gap": 0.28, "pad": [0.05, 0.1], "push": 0.025,
+    "punch": {"cada": 3.5, "niveis": [1.0, 1.15]},
+    "segmentos": [
+      {"palavras": [7, 15], "entrada": "impacto"},
+      {"palavras": [16, 35]},
+      {"palavras": [40, 48]},
+      {"palavras": [51, 55]}
+    ]
+  },
+  "cor_destaque": "amarelo",
+  "graficos": [
+    {"type": "hook", "t": 0, "ate": "w:16", "text": "4 coisas que mudam\na tua *mentalidade*"},
+    {"type": "card", "t": "w:16", "ate": "w:21", "text": "1  Lei da *atração*"},
+    {"type": "card", "t": "w:21", "ate": "w:25", "text": "2  Quadro de *visualização*"},
+    {"type": "card", "t": "w:25", "ate": "w:33", "text": "3  7 *hacks* para a tua vida"},
+    {"type": "card", "t": "w:33", "ate": "w:40", "text": "4  *Ikigai*"}
+  ],
+  "legendas": {"estilo": "apple", "destaque": ["atração", "visualização", "ikigai", "lápis"], "corrigir": {"hikigai": "ikigai", "aspas": "hacks"}},
+  "sfx": [
+    {"som": "impacto_seco_curto", "t": 0.0, "db": -9},
+    {"som": "pop_suave", "t": "w:16", "db": -16},
+    {"som": "pop_suave", "t": "w:21", "db": -16},
+    {"som": "pop_suave", "t": "w:25", "db": -16},
+    {"som": "pop_grave_titulo", "t": "w:33", "db": -13}
+  ],
+  "musica": {"path": "C:/Users/Goldrajch/Documents/apps e wb sites ai/Elite Agency/Apollo OB Memoria/10 - Projects/EDICOES/efeitos-sonoros/06_ambientes_camas/pad_emocional_do_maior_20s.wav", "db": -24, "fade_out": 1.5},
+  "grade": {"look": "filme", "intensidade": 0.6, "grao": 0.12, "vinheta": 0.3, "halation": 0.18, "nitidez": 0.25}
+}
